@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Keep anchored section headings clear of the top edge */
+    scroll-padding-top: 1.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+  }
+
+  /* Visible, consistent keyboard focus ring across the site */
+  :focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  .container-page {
+    /* Spans the full screen width; md+ side padding clears the fixed social-icon bar on the right.
+       Capped only on ultra-wide monitors so cards and text lines don't grow absurdly large. */
+    @apply mx-auto w-full max-w-[1920px] px-5 sm:px-8 md:px-20 2xl:px-24;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-eyebrow sm:text-sm;
+  }
+
+  /* Yellow primary CTA */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink shadow-md shadow-accent/20 transition hover:-translate-y-0.5 hover:bg-accent-dark hover:shadow-lg;
+  }
+
+  /* Hero photo eases from slightly zoomed-in to its resting size on page load */
+  .hero-zoom {
+    animation: hero-zoom 12s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @keyframes hero-zoom {
+    from {
+      transform: scale(1.12);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-zoom {
+      animation: none;
+    }
+  }
+
+  /* Blue inline text link with arrow ("Learn more →") */
+  .link-arrow {
+    @apply inline-flex items-center gap-1.5 text-sm font-medium text-primary transition-colors hover:text-primary-dark;
+  }
+}
