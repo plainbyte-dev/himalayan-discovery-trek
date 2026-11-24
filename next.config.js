@@ -6,6 +6,9 @@ const nextConfig = {
     // remotePatterns: [{ protocol: "https", hostname: "images.unsplash.com" }],
     formats: ["image/avif", "image/webp"],
   },
+  experimental: {
+    agentUpgrade: "security",
+  },
 };
 
 module.exports = nextConfig;
