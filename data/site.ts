@@ -55,5 +55,6 @@ export const affiliations: Affiliation[] = [
   { name: "Nepal Mountaineering Association", short: "NMA", logo: "/images/nma.svg" },
 ];
 
-// TODO: link the real Tripadvisor listing (rating and review count come from the trip data, see data/contact.ts)
-export const tripadvisorHref = "https://www.tripadvisor.com/";
+// Company listing on Tripadvisor (location ID 13998083, used by lib/tripadvisor.ts)
+export const tripadvisorHref =
+  "https://www.tripadvisor.com/Attraction_Review-g293890-d13998083-Reviews-Himalayan_Discovery_Trek-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html";

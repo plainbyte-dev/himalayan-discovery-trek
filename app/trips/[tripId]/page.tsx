@@ -19,6 +19,7 @@ import {
   Section,
   TripFacts,
 } from "@/components/trips/TripSections";
+import TripadvisorReviews, { TripadvisorBadge } from "@/components/TripadvisorReviews";
 import { tripadvisor } from "@/data/contact";
 import { siteUrl } from "@/data/site";
 import { tripImages } from "@/lib/images";
@@ -208,10 +209,14 @@ export default async function TripPage({ params }: Props) {
             tiers={pricedTiers(trip)}
             policy={bookingPolicy}
             whatsapp={company.whatsapp}
-            tripadvisor={{ ...company.tripadvisor, href: tripadvisor.href }}
+            tripadvisorBadge={
+              <TripadvisorBadge fallback={{ ...company.tripadvisor, href: tripadvisor.href }} />
+            }
           />
         </aside>
       </div>
+
+      <TripadvisorReviews />
 
       {similar.length > 0 && (
         <section className="bg-glacier py-20 lg:py-28">

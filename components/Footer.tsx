@@ -4,6 +4,7 @@ import Reveal from "@/components/Reveal";
 import { SocialIcon } from "@/components/SocialIcons";
 import { contactDetails, tripadvisor } from "@/data/contact";
 import { socialLinks } from "@/data/site";
+import { TripadvisorLogo } from "@/components/TripadvisorReviews";
 
 // Social profiles shown in the footer's "Follow Us" column
 const footerSocials = socialLinks.filter(({ name }) => name !== "YouTube");
@@ -31,27 +32,16 @@ export default function Footer() {
           <div className="flex flex-col items-center lg:items-end">
             <div className="flex flex-col items-center">
               <p className="text-sm font-medium text-ink">Recommended On</p>
+              {/* Logo only, straight on the footer background (no card). The rating isn't shown here:
+                  Tripadvisor only allows its rating bubbles on a white background. */}
               <a
                 href={tripadvisor.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 flex items-center gap-3 rounded-2xl bg-white/80 px-4 py-3 text-left shadow-lg shadow-navy/10 backdrop-blur transition hover:-translate-y-0.5"
+                aria-label="Himalayan Discovery Trek on Tripadvisor"
+                className="mt-3 inline-block rounded transition hover:-translate-y-0.5"
               >
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-tripadvisor/20 text-xs font-bold text-ink" aria-hidden="true">
-                  TA
-                </span>
-                <span>
-                  <span className="block text-sm font-semibold text-ink">Tripadvisor</span>
-                  <span className="flex items-center gap-1.5 text-sm font-semibold text-tripadvisor">
-                    {tripadvisor.rating}
-                    <span className="flex gap-0.5" aria-label={`Rated ${tripadvisor.rating} out of 5`}>
-                      {Array.from({ length: 5 }, (_, i) => (
-                        <span key={i} className="h-3 w-3 rounded-full bg-tripadvisor" />
-                      ))}
-                    </span>
-                  </span>
-                  <span className="block text-[10px] text-muted">{tripadvisor.reviewsLabel}</span>
-                </span>
+                <TripadvisorLogo className="h-8 w-auto" />
               </a>
             </div>
   

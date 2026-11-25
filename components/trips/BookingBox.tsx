@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ArrowRight, Check, MessageCircle, Star } from "lucide-react";
+import { ArrowRight, Check, MessageCircle } from "lucide-react";
 import { useEnquiry } from "@/components/enquiry/EnquiryProvider";
 import { formatPrice, paxLabel, whatsappHref } from "@/lib/format";
 
@@ -16,7 +16,8 @@ type BookingBoxProps = {
   tiers: Tier[];
   policy: string[];
   whatsapp: string | null;
-  tripadvisor: { rating: number; reviews: number; href: string };
+  /** Server-rendered Tripadvisor rating badge */
+  tripadvisorBadge?: React.ReactNode;
 };
 
 /**
@@ -31,7 +32,7 @@ export default function BookingBox({
   tiers,
   policy,
   whatsapp,
-  tripadvisor,
+  tripadvisorBadge,
 }: BookingBoxProps) {
   const { open } = useEnquiry();
   // Default to the tier matching the advertised offer price, else the first
@@ -110,18 +111,7 @@ export default function BookingBox({
           </ul>
         )}
 
-        <a
-          href={tripadvisor.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-5 flex items-center gap-2 rounded-2xl border border-line px-4 py-3 text-sm transition hover:border-tripadvisor"
-        >
-          <Star className="h-4 w-4 fill-tripadvisor text-tripadvisor" aria-hidden="true" />
-          <span className="font-semibold text-tripadvisor">{tripadvisor.rating}</span>
-          <span className="text-slate">
-            on Tripadvisor · {tripadvisor.reviews} {tripadvisor.reviews === 1 ? "review" : "reviews"}
-          </span>
-        </a>
+        {tripadvisorBadge && <div className="mt-5">{tripadvisorBadge}</div>}
       </section>
 
       {/* Mobile bottom bar */}

@@ -9,6 +9,7 @@ import Navbar from "@/components/Navbar";
 // Blog section hidden for now; uncomment here and in the JSX below to restore it
 // import Stories from "@/components/Stories";
 import TreksShowcase from "@/components/TreksShowcase";
+import TripadvisorReviews from "@/components/TripadvisorReviews";
 import { featuredTrek, homepageShowcase } from "@/lib/showcase";
 
 export default function HomePage() {
@@ -24,6 +25,7 @@ export default function HomePage() {
         <FeaturedTrek {...featuredTrek("everest-base-camp-trek")} />
         {/* Blog section hidden for now */}
         {/* <Stories /> */}
+        <TripadvisorReviews />
         <CTA />
         <Affiliations />
       </main>
