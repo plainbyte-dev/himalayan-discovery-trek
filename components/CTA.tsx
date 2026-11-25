@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import SectionHeading from "@/components/SectionHeading";
-import { contactEmail } from "@/data/site";
+import { EnquiryButton } from "@/components/enquiry/EnquiryProvider";
 
 export default function CTA() {
   return (
@@ -17,20 +17,20 @@ export default function CTA() {
           className="object-cover object-center"
         />
       </div>
-      <div className="absolute inset-0 bg-white/75 lg:bg-transparent lg:bg-gradient-to-r lg:from-white lg:from-35% lg:via-white/70 lg:to-transparent" />
-      <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white to-transparent" />
-      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white to-transparent" />
+      <div className="absolute inset-0 bg-snow/75 lg:bg-transparent lg:bg-gradient-to-r lg:from-snow lg:from-35% lg:via-snow/70 lg:to-transparent" />
+      <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-snow to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-snow to-transparent" />
 
       <div className="container-page relative">
         <Reveal className="max-w-xl">
           <SectionHeading eyebrow="Plan your Journey" title="Your Himalayan Journey Starts Here." />
-          <p className="mt-6 text-lg leading-relaxed text-gray-700">
+          <p className="mt-6 text-lg leading-relaxed text-slate">
             Get in touch with our team and let&apos;s plan your perfect adventure in Nepal.
           </p>
-          <a href={`mailto:${contactEmail}?subject=Trip%20enquiry`} className="btn-primary mt-8">
+          <EnquiryButton className="btn-primary mt-8">
             Plan Your Trip
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </a>
+          </EnquiryButton>
         </Reveal>
       </div>
     </section>

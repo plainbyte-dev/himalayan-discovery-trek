@@ -5,9 +5,9 @@ import { affiliations } from "@/data/site";
 /** Row of official bodies the company is registered with, shown just above the footer. */
 export default function Affiliations() {
   return (
-    <section aria-labelledby="affiliations-heading" className="bg-gradient-to-b from-white to-[#DCEBF3] py-16 lg:py-20">
+    <section aria-labelledby="affiliations-heading" className="bg-gradient-to-b from-snow to-glacier py-16 lg:py-20">
       <Reveal className="container-page text-center">
-        <h2 id="affiliations-heading" className="text-2xl font-medium text-primary sm:text-3xl">
+        <h2 id="affiliations-heading" className="text-2xl font-medium text-navy sm:text-3xl">
           We are affiliated to
         </h2>
 
@@ -18,11 +18,11 @@ export default function Affiliations() {
                 <Image src={logo} alt={name} width={112} height={112} className="h-20 w-full object-contain sm:h-24" />
               ) : (
                 // Placeholder until the official logo file is added in data/site.ts
-                <span className="flex h-20 w-20 items-center justify-center rounded-full border-2 border-primary/30 bg-white text-sm font-bold text-primary shadow-sm sm:h-24 sm:w-24">
+                <span className="flex h-20 w-20 items-center justify-center rounded-full border-2 border-navy/30 bg-white text-sm font-bold text-navy shadow-sm sm:h-24 sm:w-24">
                   {short}
                 </span>
               )}
-              <span className="mt-3 text-[11px] leading-tight text-gray-600">{name}</span>
+              <span className="mt-3 text-[11px] leading-tight text-slate">{name}</span>
             </li>
           ))}
         </ul>

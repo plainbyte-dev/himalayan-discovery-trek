@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useEnquiry } from "@/components/enquiry/EnquiryProvider";
 import Logo from "@/components/Logo";
 import SocialIcons from "@/components/SocialIcons";
 import { navLinks } from "@/data/site";
@@ -10,6 +11,7 @@ import { navLinks } from "@/data/site";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const { open: openEnquiry } = useEnquiry();
 
   // While the drawer is open: lock page scroll, focus the close button, close on Escape
   useEffect(() => {
@@ -40,7 +42,7 @@ export default function Navbar() {
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className="rounded text-sm font-medium text-white/90 transition-colors hover:text-accent"
+                  className="rounded text-sm font-medium text-white/90 transition-colors hover:text-saffron"
                 >
                   {link.label}
                 </a>
@@ -48,12 +50,9 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <a
-            href="#contact"
-            className="hidden rounded-full border border-white/70 px-5 py-2 text-xs font-semibold uppercase tracking-wider text-white transition hover:bg-white hover:text-navy md:inline-block"
-          >
+          <button type="button" onClick={() => openEnquiry()} className="btn-ghost hidden md:inline-flex">
             Enquire
-          </a>
+          </button>
 
           <button
             type="button"
@@ -110,7 +109,7 @@ export default function Navbar() {
                     <a
                       href={link.href}
                       onClick={() => setOpen(false)}
-                      className="block rounded-md px-3 py-3 text-lg font-medium text-ink hover:bg-mist hover:text-primary"
+                      className="block rounded-md px-3 py-3 text-lg font-medium text-ink hover:bg-glacier hover:text-navy"
                     >
                       {link.label}
                     </a>
@@ -118,11 +117,18 @@ export default function Navbar() {
                 ))}
               </ul>
 
-              <a href="#contact" onClick={() => setOpen(false)} className="btn-primary mt-6 justify-center">
+              <button
+                type="button"
+                onClick={() => {
+                  setOpen(false);
+                  openEnquiry();
+                }}
+                className="btn-primary mt-6"
+              >
                 Enquire
-              </a>
+              </button>
 
-              <SocialIcons className="mt-auto flex gap-3" itemClassName="ring-mist" />
+              <SocialIcons className="mt-auto flex gap-3" itemClassName="ring-glacier" />
             </motion.div>
           </>
         )}

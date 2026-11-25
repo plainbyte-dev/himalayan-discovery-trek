@@ -65,7 +65,7 @@ export default function SocialIcons({ className = "flex flex-col gap-3", itemCla
             target="_blank"
             rel="noopener noreferrer"
             aria-label={`Himalayan Discovery Trek on ${name}`}
-            className={`flex h-9 w-9 items-center justify-center rounded-full bg-white text-primary shadow-md ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:bg-primary hover:text-white ${itemClassName}`}
+            className={`flex h-9 w-9 items-center justify-center rounded-full bg-white text-navy shadow-md ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:bg-navy hover:text-white ${itemClassName}`}
           >
             <SocialIcon name={name} />
           </a>

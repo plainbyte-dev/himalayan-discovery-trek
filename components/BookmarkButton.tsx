@@ -16,7 +16,7 @@ export default function BookmarkButton({ label }: { label: string }) {
       onClick={() => setSaved((s) => !s)}
       className="absolute right-4 top-4 z-20 flex h-11 w-11 items-center justify-center rounded-full bg-white/25 text-white ring-1 ring-white/30 backdrop-blur-md transition hover:bg-white/40"
     >
-      <Bookmark className={`h-5 w-5 transition ${saved ? "fill-accent text-accent" : ""}`} aria-hidden="true" />
+      <Bookmark className={`h-5 w-5 transition ${saved ? "fill-saffron text-saffron" : ""}`} aria-hidden="true" />
     </button>
   );
 }

@@ -6,8 +6,10 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import JourneyStory from "@/components/JourneyStory";
 import Navbar from "@/components/Navbar";
-import Stories from "@/components/Stories";
+// Blog section hidden for now; uncomment here and in the JSX below to restore it
+// import Stories from "@/components/Stories";
 import TreksShowcase from "@/components/TreksShowcase";
+import { featuredTrek, homepageShowcase } from "@/lib/showcase";
 
 export default function HomePage() {
   return (
@@ -18,9 +20,10 @@ export default function HomePage() {
         <Hero />
         <Destinations />
         <JourneyStory />
-        <TreksShowcase />
-        <FeaturedTrek />
-        <Stories />
+        <TreksShowcase id="treks" eyebrow="Featured Treks" items={homepageShowcase} />
+        <FeaturedTrek {...featuredTrek("everest-base-camp-trek")} />
+        {/* Blog section hidden for now */}
+        {/* <Stories /> */}
         <CTA />
         <Affiliations />
       </main>

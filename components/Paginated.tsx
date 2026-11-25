@@ -21,7 +21,7 @@ export default function Paginated({ items, perPage, listClassName, label }: Pagi
 
   // White circles straddling the grid's left/right edges, vertically centred on the cards
   const arrowClass =
-    "absolute top-1/2 z-30 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white text-ink shadow-lg shadow-navy/20 ring-1 ring-gray-200 transition hover:bg-primary hover:text-white hover:ring-primary disabled:pointer-events-none disabled:opacity-0";
+    "absolute top-1/2 z-30 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-white text-ink shadow-lg shadow-navy/20 ring-1 ring-line transition hover:bg-navy hover:text-white hover:ring-navy disabled:pointer-events-none disabled:opacity-0";
 
   return (
     <>
@@ -70,7 +70,7 @@ export default function Paginated({ items, perPage, listClassName, label }: Pagi
             >
               <span
                 className={`block h-2.5 rounded-full transition-all duration-300 ${
-                  i === page ? "w-8 bg-primary" : "w-2.5 bg-gray-300 group-hover/dot:bg-gray-400"
+                  i === page ? "w-8 bg-navy" : "w-2.5 bg-line group-hover/dot:bg-muted"
                 }`}
               />
             </button>

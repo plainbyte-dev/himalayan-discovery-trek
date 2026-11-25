@@ -1,5 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Caveat_Brush, Gochi_Hand, Poppins } from "next/font/google";
+import EnquiryProvider from "@/components/enquiry/EnquiryProvider";
+import { siteUrl } from "@/data/site";
+import { company, nepalTrips, pricedTiers } from "@/lib/trips";
 import "./globals.css";
 
 // Body + UI text
@@ -26,7 +29,6 @@ const gochiHand = Gochi_Hand({
   display: "swap",
 });
 
-const siteUrl = "https://himalayandiscoverytrek.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -58,14 +60,22 @@ export const metadata: Metadata = {
   },
 };
 
+// Only names/ids and tier labels go to the client, not the full trip data
+const enquiryTrips = nepalTrips.map(({ id, name }) => ({ id, name }));
+const groupSizes = Array.from(new Set(nepalTrips.flatMap((t) => pricedTiers(t).map((tier) => tier.pax))));
+
 export const viewport: Viewport = {
-  themeColor: "#0B2A5B",
+  themeColor: "#0E2A47",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${poppins.variable} ${caveatBrush.variable} ${gochiHand.variable}`}>
-      <body>{children}</body>
+      <body>
+        <EnquiryProvider trips={enquiryTrips} groupSizes={groupSizes} whatsapp={company.whatsapp}>
+          {children}
+        </EnquiryProvider>
+      </body>
     </html>
   );
 }

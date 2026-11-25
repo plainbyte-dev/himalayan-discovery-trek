@@ -1,3 +1,7 @@
+import { ALL_TREKS_PATH, NEPAL_PATH } from "@/lib/format";
+
+export const siteUrl = "https://himalayandiscoverytrek.com";
+
 export type NavLink = {
   label: string;
   href: string;
@@ -22,12 +26,13 @@ export type Affiliation = {
   logo?: string;
 };
 
-// Anchor links to sections on the single page
+// Root-relative so they also work from the trip pages
 export const navLinks: NavLink[] = [
-  { label: "Destinations", href: "#destinations" },
-  { label: "Treks", href: "#treks" },
-  { label: "Stories", href: "#journey" },
-  { label: "Blog", href: "#stories" },
+  { label: "Destinations", href: NEPAL_PATH },
+  { label: "Treks", href: ALL_TREKS_PATH },
+  { label: "Stories", href: "/#journey" },
+  // Blog link hidden while the blog section on the homepage is commented out
+  // { label: "Blog", href: "/#stories" },
 ];
 
 // TODO: replace with the company's real profiles
@@ -37,16 +42,6 @@ export const socialLinks: SocialLink[] = [
   { name: "Instagram", href: "https://www.instagram.com/" },
   { name: "WhatsApp", href: "https://wa.me/" },
   { name: "YouTube", href: "https://www.youtube.com/" },
-];
-
-export const contactEmail = "info@himalayandiscoverytrek.com";
-
-// TODO: replace the placeholder phone numbers with the real ones
-export const contactDetails: ContactItem[] = [
-  { label: "+977-98XX-XXXXXX", href: "tel:+97798XXXXXXXX" },
-  { label: "+977-98XX-XXXXXX", href: "tel:+97798XXXXXXXX" },
-  { label: contactEmail, href: `mailto:${contactEmail}` },
-  { label: "Thamel, Kathmandu", href: "https://maps.google.com/?q=Thamel,+Kathmandu" },
 ];
 
 export const affiliations: Affiliation[] = [
@@ -60,9 +55,5 @@ export const affiliations: Affiliation[] = [
   { name: "Nepal Mountaineering Association", short: "NMA", logo: "/images/nma.svg" },
 ];
 
-// TODO: confirm the rating and review count, and link the real Tripadvisor listing
-export const tripadvisor = {
-  rating: 4.9,
-  reviewsLabel: "Based on traveller reviews",
-  href: "https://www.tripadvisor.com/",
-};
+// TODO: link the real Tripadvisor listing (rating and review count come from the trip data, see data/contact.ts)
+export const tripadvisorHref = "https://www.tripadvisor.com/";

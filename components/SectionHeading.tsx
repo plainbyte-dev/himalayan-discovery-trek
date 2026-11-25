@@ -19,7 +19,7 @@ export default function SectionHeading({
 
   return (
     <div className={`${align === "center" ? "text-center" : ""} ${className}`}>
-      <p className={`eyebrow ${isDark ? "text-accent" : "text-gray-500"}`}>{eyebrow}</p>
+      <p className={`eyebrow ${isDark ? "text-saffron" : "text-muted"}`}>{eyebrow}</p>
       <h2
         className={`mt-3 font-display text-4xl leading-tight sm:text-5xl lg:text-6xl ${
           isDark ? "text-white" : "text-ink"

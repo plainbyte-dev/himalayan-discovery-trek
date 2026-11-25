@@ -1,3 +1,5 @@
+import { regionPath } from "@/lib/format";
+
 export type Trek = {
   slug: string;
   region: string;
@@ -19,7 +21,7 @@ export const treks: Trek[] = [
     image: "/images/trek-annapurna.jpg",
     alt: "Trekker with poles standing before the vast snow-covered south face of Annapurna",
     linkLabel: "Explore Annapurna",
-    href: "#contact",
+    href: regionPath("annapurna"),
   },
   {
     slug: "manaslu",
@@ -30,7 +32,7 @@ export const treks: Trek[] = [
     image: "/images/trek-manaslu.jpg",
     alt: "Hooded hiker crossing misty grassland below a dark, snow-dusted peak",
     linkLabel: "Explore Manaslu",
-    href: "#contact",
+    href: regionPath("manaslu"),
   },
   {
     slug: "everest",
@@ -41,6 +43,6 @@ export const treks: Trek[] = [
     image: "/images/trek-everest.jpg",
     alt: "Trekker with a heavy pack looking up at Everest emerging from the clouds",
     linkLabel: "Explore Everest",
-    href: "#contact",
+    href: regionPath("everest"),
   },
 ];

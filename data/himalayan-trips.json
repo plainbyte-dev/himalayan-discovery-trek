@@ -1,0 +1,4287 @@
+{
+  "source": "https://www.himalayandiscoverytrek.com",
+  "capturedOn": "2026-11-25",
+  "note": "Overviews, day descriptions and FAQ answers are summaries, not the site's original wording. Prices in USD per person.",
+  "company": {
+    "name": "Himalayan Discovery Trek",
+    "tagline": "Never Let Your Feet Stop",
+    "location": "Thamel, Kathmandu, Nepal",
+    "phone": "+977-9863382935",
+    "whatsapp": "+977-9863382935",
+    "email": null,
+    "affiliations": [
+      "Nepal Ministry of Culture, Tourism & Civil Aviation",
+      "Nepal Tourism Board",
+      "TAAN",
+      "Nepal Mountaineering Association"
+    ],
+    "tripadvisor": {
+      "rating": 4.9,
+      "reviews": 7
+    },
+    "payments": [
+      "Visa",
+      "Mastercard",
+      "American Express",
+      "UnionPay"
+    ]
+  },
+  "bookingPolicy": [
+    "Free start-date change up to 30 days before departure",
+    "Switch to a different tour up to 30 days before departure",
+    "No booking or credit card fees; Book Now, Pay Later",
+    "Best price guaranteed",
+    "100% financial protection",
+    "24/7 customer support"
+  ],
+  "destinations": [
+    {
+      "id": "nepal",
+      "name": "Nepal",
+      "url": "https://www.himalayandiscoverytrek.com/destinations/nepal",
+      "regions": [
+        {
+          "name": "Everest",
+          "tripIds": [
+            "everest-base-camp-trek",
+            "everest-base-camp-with-jiri",
+            "everest-panorama-trekking",
+            "gokyo-chola-ebc-trek"
+          ],
+          "image": "https://www.himalayandiscoverytrek.com/storage/regions/1/6df9b0dbfb65fc76f25ebaa7fcd7a1cc.webp"
+        },
+        {
+          "name": "Annapurna",
+          "tripIds": [
+            "annapurna-base-camp-trekking",
+            "annapurna-circuit-trekking",
+            "ghorepani-poon-hill-trekking",
+            "mardi-himal-trekking"
+          ],
+          "image": "https://www.himalayandiscoverytrek.com/storage/regions/2/8cfb83eb9a78ced131321a5964f876dd.webp"
+        },
+        {
+          "name": "Langtang",
+          "tripIds": [
+            "langtang-valley-and-gosaikunda-trek",
+            "helambu-valley-trekking"
+          ],
+          "image": "https://www.himalayandiscoverytrek.com/storage/regions/3/cb14c6155156a780e7b175c2bea1f56e.webp"
+        },
+        {
+          "name": "Mustang",
+          "tripIds": [
+            "upper-mustang-trekking",
+            "muktinath-jomsom-trekking"
+          ],
+          "image": "https://www.himalayandiscoverytrek.com/storage/regions/4/d3fa0cc933883a7121710147b05c816b.webp"
+        },
+        {
+          "name": "Manaslu",
+          "tripIds": [
+            "manaslu-round-trekking",
+            "manaslu-tsum-valley-trek"
+          ],
+          "image": "https://www.himalayandiscoverytrek.com/storage/regions/5/f96e69c79ad1e906623f530b4abf7b57.webp"
+        }
+      ],
+      "activities": [
+        "Trekking",
+        "Expedition",
+        "Cultural Tours",
+        "Wildlife Safari"
+      ],
+      "image": "https://www.himalayandiscoverytrek.com/storage/destinations/1/51a617f65163816855e807947c541842.jpeg"
+    },
+    {
+      "id": "bhutan",
+      "name": "Bhutan",
+      "url": "https://www.himalayandiscoverytrek.com/destinations/bhutan",
+      "regions": [],
+      "tripIds": [],
+      "note": "No tours or content on the site yet"
+    },
+    {
+      "id": "tibet",
+      "name": "Tibet",
+      "url": "https://www.himalayandiscoverytrek.com/destinations/tibet",
+      "regions": [],
+      "tripIds": [],
+      "note": "No tours or content on the site yet"
+    }
+  ],
+  "packingList": {
+    "clothing": [
+      "Thermal base layers",
+      "Moisture-wicking long-sleeve shirts",
+      "Fleece",
+      "Insulated jacket",
+      "Waterproof jacket and pants",
+      "Trekking pants",
+      "Warm beanie",
+      "Sun hat",
+      "Neck gaiter"
+    ],
+    "hands": [
+      "Lightweight inner gloves",
+      "Insulated outer gloves or mittens"
+    ],
+    "footwear": [
+      "Waterproof hiking boots",
+      "Camp shoes"
+    ],
+    "gear": [
+      "30-40 L backpack with rain cover",
+      "Cold-rated sleeping bag",
+      "Insulated sleeping pad",
+      "Trekking poles",
+      "2 L water bottles or hydration bladder",
+      "Toiletries",
+      "Quick-dry towel",
+      "Medications incl. altitude medicine",
+      "Sun cream",
+      "Wet wipes",
+      "Hand sanitizer"
+    ],
+    "misc": [
+      "Camera",
+      "Notebook",
+      "Earplugs",
+      "Portable solar charger",
+      "Headlamp",
+      "Power bank",
+      "Spare batteries"
+    ]
+  },
+  "trips": [
+    {
+      "id": "everest-base-camp-trek",
+      "name": "Everest Base Camp Trek",
+      "url": "https://www.himalayandiscoverytrek.com/trips/everest-base-camp-trek",
+      "country": "Nepal",
+      "region": "Everest",
+      "durationDays": 15,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1120,
+        "regularPerPerson": 1305,
+        "saving": 185,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1305
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1120
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1100
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1080
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1060
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 5545,
+        "feet": 18192,
+        "location": "Kala Patthar"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-10",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star hotel in Kathmandu; teahouses on trek",
+      "meals": "Breakfast in Kathmandu; all meals on trek; welcome & farewell dinners",
+      "transport": "Kathmandu-Lukla-Kathmandu flights; ground transport per itinerary",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Classic Khumbu trek to Everest Base Camp (5,364 m) and Kala Patthar with acclimatization days and Sherpa culture.",
+      "highlights": [
+        "Kathmandu UNESCO sites: Swayambhunath, Pashupatinath, Boudhanath",
+        "Scenic mountain flight to Lukla",
+        "Acclimatize in Namche Bazaar (Everest View Hotel hike)",
+        "Tengboche Monastery with Everest & Ama Dablam views",
+        "Everest Base Camp and the Khumbu Icefall",
+        "Kala Patthar sunrise over Everest",
+        "Teahouse stays and Sherpa hospitality"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,400 m",
+          "altitudeMeters": 1400,
+          "duration": null,
+          "description": "Airport pickup, hotel transfer and welcome dinner."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing and trek preparation",
+          "altitude": "1,400 m",
+          "altitudeMeters": 1400,
+          "duration": null,
+          "description": "Morning tour of Swayambhunath, Pashupatinath and Boudhanath; collect gear and permits; trek briefing."
+        },
+        {
+          "day": 3,
+          "title": "Fly to Lukla, trek to Phakding",
+          "altitude": "2,800 m",
+          "altitudeMeters": 2800,
+          "duration": "3-4 hrs",
+          "description": "Flight to Lukla, then a walk along the Dudh Koshi River to Phakding."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Namche Bazaar",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": "5-6 hrs",
+          "description": "Climb through pine forest and over suspension bridges to Namche; possible first view of Everest."
+        },
+        {
+          "day": 5,
+          "title": "Acclimatization day in Namche",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": null,
+          "description": "Rest and acclimatize; optional Everest View Hotel hike and Sherpa culture museum."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Tengboche",
+          "altitude": "3,860 m",
+          "altitudeMeters": 3860,
+          "duration": "5-6 hrs",
+          "description": "Walk to Tengboche Monastery to see monks at prayer, with Ama Dablam views."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Dingboche",
+          "altitude": "4,410 m",
+          "altitudeMeters": 4410,
+          "duration": "5-6 hrs",
+          "description": "Through valleys and Sherpa villages into more rugged terrain with wide mountain views."
+        },
+        {
+          "day": 8,
+          "title": "Acclimatization day in Dingboche",
+          "altitude": "4,410 m",
+          "altitudeMeters": 4410,
+          "duration": null,
+          "description": "Rest day for acclimatization (site text repeats Day 7)."
+        },
+        {
+          "day": 9,
+          "title": "Trek to Lobuche",
+          "altitude": "4,940 m",
+          "altitudeMeters": 4940,
+          "duration": "5-6 hrs",
+          "description": "Climb past memorials to Everest climbers, with Nuptse views, to Lobuche."
+        },
+        {
+          "day": 10,
+          "title": "Trek to Everest Base Camp and Gorak Shep",
+          "altitude": "5,364 m",
+          "altitudeMeters": 5364,
+          "duration": "3-4 hrs to Gorak Shep",
+          "description": "Reach Gorak Shep for lunch, continue to Everest Base Camp, return to Gorak Shep."
+        },
+        {
+          "day": 11,
+          "title": "Hike to Kala Patthar, trek to Pheriche",
+          "altitude": "5,545 m",
+          "altitudeMeters": 5545,
+          "duration": null,
+          "description": "Kala Patthar hike and descent to Pheriche (site text repeats Day 10)."
+        },
+        {
+          "day": 12,
+          "title": "Trek to Namche Bazaar",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": null,
+          "description": "Return to Namche Bazaar (site text repeats Day 10)."
+        },
+        {
+          "day": 13,
+          "title": "Trek to Lukla",
+          "altitude": "2,800 m",
+          "altitudeMeters": 2800,
+          "duration": "6-7 hrs",
+          "description": "Descend through villages and forest to Lukla; farewell dinner."
+        },
+        {
+          "day": 14,
+          "title": "Fly to Kathmandu",
+          "altitude": "1,400 m",
+          "altitudeMeters": 1400,
+          "duration": null,
+          "description": "Morning flight to Kathmandu, hotel transfer, free time in Thamel."
+        },
+        {
+          "day": 15,
+          "title": "Departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Free time for shopping or sightseeing, then airport transfer."
+        }
+      ],
+      "includes": [
+        "3 nights Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All trek meals; welcome & farewell dinners",
+        "Airport transfers",
+        "Domestic flights incl. taxes",
+        "Sagarmatha National Park permit & TIMS",
+        "Licensed English-speaking guide; porter (1 per 2 trekkers)",
+        "Down jacket & sleeping bag (returnable)",
+        "Trekking map, medical kit, briefing"
+      ],
+      "excludes": [
+        "International flights",
+        "Nepal visa fee",
+        "Travel insurance (mandatory)",
+        "Personal trekking gear",
+        "Personal expenses",
+        "Alcohol, soft drinks, bottled water",
+        "Extra Kathmandu nights and meals",
+        "Tips"
+      ],
+      "permits": [
+        "TIMS card",
+        "Sagarmatha National Park permit"
+      ],
+      "acclimatization": "Acclimatization days at Namche (Day 5) and Dingboche (Day 8); guides monitor trekkers; altitude medication on kit list.",
+      "connectivity": "Limited; paid Wi-Fi at some teahouses; SIM intermittent higher up.",
+      "faqs": [
+        {
+          "question": "What is the Everest Base Camp Trek?",
+          "answer": "A roughly 12-15 day trek through the Khumbu to the foot of Everest, topping out around 5,364 m (17,598 ft)."
+        },
+        {
+          "question": "What is the best time to trek to Everest Base Camp?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov); winter is very cold and the Jun-Aug monsoon is wet."
+        },
+        {
+          "question": "What level of fitness is required for the trek?",
+          "answer": "Moderate fitness; prepare with hiking or cardio for long days on rough ground."
+        },
+        {
+          "question": "How do I prepare for the trek?",
+          "answer": "Train, get proper boots, warm clothing and a high-altitude sleeping bag, and learn altitude-sickness signs and hydration habits."
+        },
+        {
+          "question": "Do I need a guide and porter?",
+          "answer": "Independent trekking is possible but a guide and porter are strongly recommended; the porter carries your gear."
+        },
+        {
+          "question": "What kind of accommodation can I expect?",
+          "answer": "Teahouses with shared, usually twin, rooms; most serve meals."
+        },
+        {
+          "question": "Is it safe to trek in the Everest region?",
+          "answer": "Generally yes with a reputable company; guides are first-aid trained and manage weather and acclimatization."
+        },
+        {
+          "question": "What permits do I need for the trek?",
+          "answer": "TIMS card and Sagarmatha National Park permit; the company arranges both."
+        },
+        {
+          "question": "How can I stay connected during the trek?",
+          "answer": "Limited: paid Wi-Fi at some teahouses; a local SIM works intermittently higher up."
+        },
+        {
+          "question": "What is the cost of the Everest Base Camp Trek?",
+          "answer": "Package covers lodging, meals, guide/porter, permits and transport; US$1,120 pp for 2-4 people vs US$1,305 solo."
+        }
+      ],
+      "dataNotes": "Kala Patthar listed as 5,545 m and 5,643 m; some day descriptions repeat text from other days.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/7e6de5d86dd6754af854925590afe915.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/medium_7e6de5d86dd6754af854925590afe915.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/6792f5fb2520eca582af6ac5be94c083.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/large_6792f5fb2520eca582af6ac5be94c083.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/medium_6792f5fb2520eca582af6ac5be94c083.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/thumb_6792f5fb2520eca582af6ac5be94c083.webp",
+            "width": 1907,
+            "height": 1271
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/7e6de5d86dd6754af854925590afe915.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/large_7e6de5d86dd6754af854925590afe915.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/medium_7e6de5d86dd6754af854925590afe915.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/1/thumb_7e6de5d86dd6754af854925590afe915.webp",
+            "width": 1920,
+            "height": 1280
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/1/8bf37f2b634773f383ba201ff913abb1.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/1/601723889257a09b50319785acf70dbf.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/1/e8ee9849eedd005205d7b9957d46dc18.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/1/4180ad1ea10bbeca095753cf39b65db2.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Everest Base Camp Trek, Everest region, Nepal",
+        "localFolder": "/images/trips/everest-base-camp-trek/"
+      }
+    },
+    {
+      "id": "everest-base-camp-with-jiri",
+      "name": "Everest Base Camp with Jiri",
+      "url": "https://www.himalayandiscoverytrek.com/trips/everest-base-camp-with-jiri",
+      "country": "Nepal",
+      "region": "Everest",
+      "durationDays": 21,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1780,
+        "regularPerPerson": 1900,
+        "saving": 120,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1900
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1780
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1760
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1740
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1720
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 5545,
+        "feet": 18192,
+        "location": "Kala Patthar"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1+",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star hotel in Kathmandu (3 nights); teahouses on trek",
+      "meals": "All meals on trek; farewell dinner",
+      "transport": "Drive to Jiri/Bhandar; Lukla-Kathmandu flight; private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Quieter, historic route to EBC starting by road at Jiri, with a gradual ascent through Sherpa villages.",
+      "highlights": [
+        "Scenic start through valleys and villages from Jiri",
+        "Sherpa culture in Namche Bazaar and Tengboche",
+        "Views of Everest, Lhotse and Nuptse",
+        "Reaching Everest Base Camp",
+        "Fewer crowds on the classic pioneers' route"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Airport pickup, Thamel hotel, welcome dinner and team briefing."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Swayambhunath, Boudhanath and Pashupatinath; afternoon gear and plan review."
+        },
+        {
+          "day": 3,
+          "title": "Drive Kathmandu to Bhandar via Jiri",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "7-8 hrs drive",
+          "description": "Long scenic drive via Jiri to Bhandar; overnight in a lodge."
+        },
+        {
+          "day": 4,
+          "title": "Bhandar to Sete",
+          "altitude": "2,575 m",
+          "altitudeMeters": 2575,
+          "duration": "6-7 hrs",
+          "description": "First trekking day on winding trails through forest and terraced fields."
+        },
+        {
+          "day": 5,
+          "title": "Sete to Junbesi",
+          "altitude": "2,670 m",
+          "altitudeMeters": 2670,
+          "duration": "6-7 hrs",
+          "description": "Up-and-down trail with mountain views to a Sherpa village with a monastery."
+        },
+        {
+          "day": 6,
+          "title": "Junbesi to Nunthala",
+          "altitude": "2,220 m",
+          "altitudeMeters": 2220,
+          "duration": "6 hrs",
+          "description": "Through forest and villages to a quiet overnight stop."
+        },
+        {
+          "day": 7,
+          "title": "Nunthala to Bupsa",
+          "altitude": "2,360 m",
+          "altitudeMeters": 2360,
+          "duration": "5-6 hrs",
+          "description": "Descend through forest, crossing several rivers."
+        },
+        {
+          "day": 8,
+          "title": "Bupsa to Surke",
+          "altitude": "2,290 m",
+          "altitudeMeters": 2290,
+          "duration": "5-6 hrs",
+          "description": "Forest trails with views of the Dudh Koshi River."
+        },
+        {
+          "day": 9,
+          "title": "Surke to Phakding",
+          "altitude": "2,652 m",
+          "altitudeMeters": 2652,
+          "duration": "4-5 hrs",
+          "description": "Gentle riverside walk to Phakding, helping acclimatization."
+        },
+        {
+          "day": 10,
+          "title": "Phakding to Namche Bazaar",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": "5-6 hrs",
+          "description": "Big climb via pine forest and suspension bridges to the Sherpa capital."
+        },
+        {
+          "day": 11,
+          "title": "Namche Bazaar rest day",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": null,
+          "description": "Rest and acclimatize; optional Sherpa Culture Museum or Everest View viewpoint."
+        },
+        {
+          "day": 12,
+          "title": "Namche Bazaar to Tengboche",
+          "altitude": "3,860 m",
+          "altitudeMeters": 3860,
+          "duration": "5-6 hrs",
+          "description": "Forest trail to Tengboche Monastery with Ama Dablam views."
+        },
+        {
+          "day": 13,
+          "title": "Tengboche to Dingboche",
+          "altitude": "4,360 m",
+          "altitudeMeters": 4360,
+          "duration": "5-6 hrs",
+          "description": "Increasingly rugged terrain up to Dingboche."
+        },
+        {
+          "day": 14,
+          "title": "Dingboche to Dughla",
+          "altitude": "4,620 m",
+          "altitudeMeters": 4620,
+          "duration": "3-4 hrs",
+          "description": "Short day toward the Khumbu Glacier, past climbers' memorials."
+        },
+        {
+          "day": 15,
+          "title": "Dughla to Lobuche",
+          "altitude": "4,910 m",
+          "altitudeMeters": 4910,
+          "duration": "3-4 hrs",
+          "description": "Rocky terrain with views of Nuptse and other peaks."
+        },
+        {
+          "day": 16,
+          "title": "Lobuche to Gorak Shep; Kala Patthar or EBC",
+          "altitude": "5,140 m (Gorak Shep)",
+          "altitudeMeters": 5140,
+          "duration": "2-3 hrs to Gorak Shep",
+          "description": "Reach Gorak Shep, then hike to Kala Patthar or Everest Base Camp and back."
+        },
+        {
+          "day": 17,
+          "title": "Gorak Shep to Kala Patthar/Base Camp, descend to Pheriche",
+          "altitude": "4,240 m (Pheriche)",
+          "altitudeMeters": 4240,
+          "duration": "8-9 hrs",
+          "description": "Dawn visit to Kala Patthar or Base Camp, then long descent to Pheriche."
+        },
+        {
+          "day": 18,
+          "title": "Pheriche via Pangboche & Tengboche to Namche",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": "6-7 hrs",
+          "description": "Retrace the route via Pangboche and Tengboche to Namche."
+        },
+        {
+          "day": 19,
+          "title": "Namche Bazaar to Lukla",
+          "altitude": "2,800 m",
+          "altitudeMeters": 2800,
+          "duration": "6 hrs",
+          "description": "Walk back to Lukla to finish the trek."
+        },
+        {
+          "day": 20,
+          "title": "Fly Lukla to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Early scenic flight to Kathmandu; free time to shop or relax."
+        },
+        {
+          "day": 21,
+          "title": "Departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Free morning, then airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Farewell dinner",
+        "Private vehicle transport",
+        "Lukla-Kathmandu flight"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "TIMS card",
+        "Sagarmatha National Park permit"
+      ],
+      "acclimatization": "Long, gradual Jiri approach helps; rest day in Namche (Day 11); altitude medication on kit list.",
+      "connectivity": "Paid Wi-Fi at some teahouses; patchy SIM coverage.",
+      "faqs": [
+        {
+          "question": "What is the Everest Base Camp Trek via Jiri?",
+          "answer": "An alternative route starting at Jiri (~190 km east of Kathmandu) with a gentler climb through the Solu region."
+        },
+        {
+          "question": "Why choose the Jiri route?",
+          "answer": "Fewer crowds than the Lukla route, traditional villages, green hills and more cultural immersion."
+        },
+        {
+          "question": "How long does the trek take?",
+          "answer": "About 16-20 days depending on itinerary and pace."
+        },
+        {
+          "question": "What is the best time to trek via Jiri?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov) for stable weather and clear views."
+        },
+        {
+          "question": "What level of fitness is required?",
+          "answer": "Moderate; long days and steep sections, so hiking and cardio training are advised."
+        },
+        {
+          "question": "What kind of accommodation can I expect?",
+          "answer": "Basic teahouses with shared rooms and warm meals."
+        },
+        {
+          "question": "Do I need a guide and porter?",
+          "answer": "Possible without, but strongly recommended for safety and convenience."
+        },
+        {
+          "question": "What permits do I need?",
+          "answer": "TIMS card and Sagarmatha National Park permit; the company helps arrange them."
+        },
+        {
+          "question": "How can I stay connected?",
+          "answer": "Paid Wi-Fi at some teahouses; local SIM gives patchy service in lower areas."
+        },
+        {
+          "question": "What is the cost of the trek?",
+          "answer": "Varies by itinerary; covers lodging, meals, guide/porter, permits and transport. US$1,780 pp for 2-4 people."
+        }
+      ],
+      "dataNotes": "Max altitude given as 5,545 / 5,550 / 5,643 m; trek length differs between sections.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/95a91ca704c35c7d775cb48987b38a32.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/medium_95a91ca704c35c7d775cb48987b38a32.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/95a91ca704c35c7d775cb48987b38a32.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/large_95a91ca704c35c7d775cb48987b38a32.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/medium_95a91ca704c35c7d775cb48987b38a32.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/thumb_95a91ca704c35c7d775cb48987b38a32.webp",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/e346fd28a745b41a5771f318a2d109c9.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/large_e346fd28a745b41a5771f318a2d109c9.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/medium_e346fd28a745b41a5771f318a2d109c9.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/2/thumb_e346fd28a745b41a5771f318a2d109c9.webp",
+            "width": 1920,
+            "height": 1440
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/2/5b3438eb1df89306d6bb89f6fcff47d2.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/2/c971a2700eef4db0b89a3bfe9e06a329.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/2/b9e27db0de25370ef6853c1c7aaebfff.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/2/c37ef2168b1b91e28b435ba5eac2c183.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Everest Base Camp with Jiri, Everest region, Nepal",
+        "localFolder": "/images/trips/everest-base-camp-with-jiri/"
+      }
+    },
+    {
+      "id": "everest-panorama-trekking",
+      "name": "Everest Panorama Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/everest-panorama-trekking",
+      "country": "Nepal",
+      "region": "Everest",
+      "durationDays": 10,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 800,
+        "regularPerPerson": 845,
+        "saving": 45,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 845
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 800
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 785
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 770
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 755
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 3932,
+        "feet": 12900,
+        "location": "Tengboche area"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star hotel in Kathmandu (3 nights); teahouses on trek",
+      "meals": "All meals on trek; welcome & farewell dinners",
+      "transport": "Kathmandu-Lukla-Kathmandu flights; private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Short, moderate Khumbu trek to Namche and Tengboche with views of Everest, Lhotse and Nuptse.",
+      "highlights": [
+        "Mountain views from Tengboche Monastery",
+        "Sherpa hospitality and culture",
+        "Panoramas of Everest and the Khumbu",
+        "Namche Bazaar market town",
+        "Khunde and Khumjung villages; Sherpa Museum"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival at TIA, Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Airport pickup, Thamel hotel, welcome dinner with guide and group."
+        },
+        {
+          "day": 2,
+          "title": "Full-day Kathmandu sightseeing",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour of Kathmandu's historic squares, hilltop stupas and Boudhanath."
+        },
+        {
+          "day": 3,
+          "title": "Fly to Lukla, trek to Phakding",
+          "altitude": "2,652 m",
+          "altitudeMeters": 2652,
+          "duration": "~3 hrs",
+          "description": "~30-minute flight to Lukla, riverside walk to Phakding."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Namche Bazaar",
+          "altitude": "3,446 m",
+          "altitudeMeters": 3446,
+          "duration": null,
+          "description": "Pine forest and suspension bridges up to Namche Bazaar."
+        },
+        {
+          "day": 5,
+          "title": "Acclimatization day in Namche",
+          "altitude": "3,446 m",
+          "altitudeMeters": 3446,
+          "duration": null,
+          "description": "Rest day; optional hike to a viewpoint hotel and nearby villages."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Tengboche",
+          "altitude": "3,867 m",
+          "altitudeMeters": 3867,
+          "duration": "5-6 hrs",
+          "description": "Trek to Tengboche for views of Everest, Lhotse and Ama Dablam."
+        },
+        {
+          "day": 7,
+          "title": "Trek down to Jorsalle",
+          "altitude": "2,850 m",
+          "altitudeMeters": 2850,
+          "duration": "~5 hrs",
+          "description": "Retrace the route down to Jorsalle."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Lukla",
+          "altitude": "2,810 m",
+          "altitudeMeters": 2810,
+          "duration": null,
+          "description": "Walk back to Lukla; farewell dinner with the team."
+        },
+        {
+          "day": 9,
+          "title": "Fly to Kathmandu",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Flight to Kathmandu; free time and a celebration dinner."
+        },
+        {
+          "day": 10,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, then airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Full-day Kathmandu sightseeing",
+        "Kathmandu-Lukla-Kathmandu flights",
+        "Welcome & farewell dinner",
+        "Special gift"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Sagarmatha National Park permit",
+        "TIMS card (may be required)"
+      ],
+      "acclimatization": "Max ~3,900 m; rest day in Namche; hydrate, go slowly, descend if symptoms.",
+      "connectivity": null,
+      "faqs": [
+        {
+          "question": "What is the Everest Panorama Trek?",
+          "answer": "A popular Khumbu route with Everest views without a full high-altitude push; usually 7-10 days."
+        },
+        {
+          "question": "What is the best time to trek?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov); winter brings snow and the Jun-Aug monsoon brings rain and cloud."
+        },
+        {
+          "question": "What level of fitness is required?",
+          "answer": "Moderate; several hours of walking daily on steep trails. Train with hiking, cardio and strength work."
+        },
+        {
+          "question": "How do I get to the starting point of the trek?",
+          "answer": "Short domestic flight Kathmandu-Lukla; allow spare days for weather delays."
+        },
+        {
+          "question": "What permits are needed?",
+          "answer": "Sagarmatha National Park permit, and possibly a TIMS card; the agency confirms and arranges."
+        },
+        {
+          "question": "What accommodations can I expect?",
+          "answer": "Basic teahouses, usually twin rooms, some with attached bathroom, shared dining rooms."
+        },
+        {
+          "question": "What about altitude sickness?",
+          "answer": "Gradual ascent helps; hydrate, go slowly, watch for headache, nausea or dizziness and descend if needed."
+        },
+        {
+          "question": "Do I need a guide or can I trek independently?",
+          "answer": "Possible alone, but a guide is strongly recommended for safety, navigation and permits."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Sturdy boots, warm layers, sleeping bag, backpack, poles, first-aid kit, water purification, camera, toiletries."
+        }
+      ],
+      "dataNotes": "Duration given as 7-10, 8-10 and 10 days; overview mentions Kala Patthar but itinerary doesn't include it.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/e0fd3dc727292762c1c8db9a95986051.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/medium_e0fd3dc727292762c1c8db9a95986051.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/4a9af8afb0785fe3b4d8374852e80350.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/large_4a9af8afb0785fe3b4d8374852e80350.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/medium_4a9af8afb0785fe3b4d8374852e80350.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/thumb_4a9af8afb0785fe3b4d8374852e80350.webp",
+            "width": 850,
+            "height": 449
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/e0fd3dc727292762c1c8db9a95986051.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/large_e0fd3dc727292762c1c8db9a95986051.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/medium_e0fd3dc727292762c1c8db9a95986051.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/7/thumb_e0fd3dc727292762c1c8db9a95986051.webp",
+            "width": 1300,
+            "height": 863
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/7/54bcd2638d4e23361c6e16310957de9c.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/7/b1c42886a6a0c9479c4bc3d4705b0f05.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/7/6fd3aa21c6a55ea0776459ba9777664f.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Everest Panorama Trekking, Everest region, Nepal",
+        "localFolder": "/images/trips/everest-panorama-trekking/"
+      }
+    },
+    {
+      "id": "gokyo-chola-ebc-trek",
+      "name": "Gokyo Chola & EBC Trek",
+      "url": "https://www.himalayandiscoverytrek.com/trips/gokyo-chola-ebc-trek",
+      "country": "Nepal",
+      "region": "Everest",
+      "durationDays": 18,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1750,
+        "regularPerPerson": 1900,
+        "saving": 150,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1900
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1750
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1735
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1720
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1700
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 5550,
+        "feet": 18208,
+        "location": "Kala Patthar"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star/deluxe hotel in Kathmandu; teahouses on trek",
+      "meals": "All meals on trek; farewell dinner",
+      "transport": "Kathmandu-Lukla-Kathmandu flights; private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Links Gokyo Lakes and Gokyo Ri, the Cho La Pass and Everest Base Camp in one Khumbu circuit.",
+      "highlights": [
+        "Turquoise Gokyo Lakes",
+        "Gokyo Ri summit views of Everest, Lhotse, Makalu",
+        "Crossing the Cho La Pass",
+        "Everest Base Camp",
+        "Trekking beside the Khumbu Glacier",
+        "Sherpa culture and traditions"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Airport pickup to a Thamel hotel; evening trek briefing."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu Valley sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Guided tour of Swayambhunath, Durbar Square and Boudhanath; gear check."
+        },
+        {
+          "day": 3,
+          "title": "Fly to Lukla, trek to Phakding",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~3 hrs",
+          "description": "~30-minute flight to Lukla, then walk along the Dudh Koshi to Phakding."
+        },
+        {
+          "day": 4,
+          "title": "Phakding to Namche Bazar",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "5-6 hrs",
+          "description": "Through pine forest and over suspension bridges to Namche."
+        },
+        {
+          "day": 5,
+          "title": "Rest day in Namche Bazar",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Acclimatization; optional Everest View Hotel or Khunde/Khumjung visit."
+        },
+        {
+          "day": 6,
+          "title": "Namche to Phortse Thanga / Dole",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "5-6 hrs",
+          "description": "Walk to Phortse Thanga or Dole; chance to see Himalayan pheasants."
+        },
+        {
+          "day": 7,
+          "title": "Phortse Thanga to Machhermo",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "4-5 hrs",
+          "description": "Climb through rhododendron forest to Machhermo."
+        },
+        {
+          "day": 8,
+          "title": "Machhermo to Gokyo",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "4-5 hrs",
+          "description": "Rocky terrain with Cho Oyu views to Gokyo."
+        },
+        {
+          "day": 9,
+          "title": "Exploring day in Gokyo (optional Gokyo Ri)",
+          "altitude": "5,357 m (Gokyo Ri)",
+          "altitudeMeters": 5357,
+          "duration": null,
+          "description": "Acclimatization; optional sunrise hike up Gokyo Ri or time by the lakes."
+        },
+        {
+          "day": 10,
+          "title": "Gokyo to Thagnak",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "3-4 hrs",
+          "description": "Past glacial lakes and the Ngozumpa Glacier to Thagnak."
+        },
+        {
+          "day": 11,
+          "title": "Thagnak to Dzongla via Cho La Pass",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "5-6 hrs",
+          "description": "Cross the Cho La pass to Dzongla."
+        },
+        {
+          "day": 12,
+          "title": "Dzongla to Lobuche",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "3-4 hrs",
+          "description": "Through alpine meadows to Lobuche."
+        },
+        {
+          "day": 13,
+          "title": "Lobuche via Gorakshep to Everest Base Camp; overnight Gorakshep",
+          "altitude": "5,364 m (EBC)",
+          "altitudeMeters": 5364,
+          "duration": null,
+          "description": "Reach Everest Base Camp; overnight in Gorakshep."
+        },
+        {
+          "day": 14,
+          "title": "Gorakshep to Kala Patthar, trek down to Pangboche",
+          "altitude": "5,550 m (Kala Patthar)",
+          "altitudeMeters": 5550,
+          "duration": "~1 hr up + 6-7 hrs",
+          "description": "Pre-dawn climb of Kala Patthar for sunrise, then descend to Pangboche."
+        },
+        {
+          "day": 15,
+          "title": "Pangboche via Khumjung to Namche Bazar",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Visit Khumjung monastery and continue to Namche."
+        },
+        {
+          "day": 16,
+          "title": "Namche Bazar to Lukla",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~6 hrs",
+          "description": "Descend through pine forest to Lukla."
+        },
+        {
+          "day": 17,
+          "title": "Fly Lukla to Kathmandu; farewell dinner",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Flight to Kathmandu, free afternoon, farewell dinner."
+        },
+        {
+          "day": 18,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast and airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Farewell dinner",
+        "Kathmandu Valley sightseeing tour",
+        "Kathmandu-Lukla-Kathmandu flights"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Sagarmatha National Park permit",
+        "TIMS card"
+      ],
+      "acclimatization": "Rest days at Namche (Day 5) and Gokyo (Day 9); trekkers go above 5,000 m; Cho La 5,420 m.",
+      "connectivity": null,
+      "faqs": [
+        {
+          "question": "What is the Gokyo Chola & Everest Base Camp Trek?",
+          "answer": "A Khumbu route linking Gokyo Lakes, the Cho La pass and Everest Base Camp; typically 16-20 days."
+        },
+        {
+          "question": "What is the best time to do this trek?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov); monsoon and winter bring rain, snow and cold."
+        },
+        {
+          "question": "What level of fitness is required?",
+          "answer": "Challenging, with long high-altitude days; cardio, strength training and practice hikes recommended."
+        },
+        {
+          "question": "How do I get to the starting point of the trek?",
+          "answer": "Fly Kathmandu-Lukla (weather can delay flights), then walk toward Namche."
+        },
+        {
+          "question": "What permits are required for this trek?",
+          "answer": "Sagarmatha National Park permit and TIMS card, arranged by an agency or in Kathmandu."
+        },
+        {
+          "question": "What kind of accommodations can I expect?",
+          "answer": "Basic teahouses, mostly shared rooms, communal dining with local and international food."
+        },
+        {
+          "question": "How do I deal with altitude sickness?",
+          "answer": "Acclimatize gradually, hydrate, watch for headache/nausea/fatigue and descend if severe."
+        },
+        {
+          "question": "Should I hire a guide or trek independently?",
+          "answer": "A guide is strongly recommended, especially for the Cho La pass."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Boots, layers, warm sleeping bag, backpack, poles, first-aid kit, water purification, sunscreen, toiletries."
+        }
+      ],
+      "dataNotes": "Hotel 'deluxe' vs '3-star'; difficulty 'moderate' vs 'challenging'; duration 16-20 days in FAQ.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/7a440ff8fc51613c527ba7cb68a236dc.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/medium_7a440ff8fc51613c527ba7cb68a236dc.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/7a440ff8fc51613c527ba7cb68a236dc.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/large_7a440ff8fc51613c527ba7cb68a236dc.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/medium_7a440ff8fc51613c527ba7cb68a236dc.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/thumb_7a440ff8fc51613c527ba7cb68a236dc.webp",
+            "width": 1920,
+            "height": 1280
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/7af4f8cfc774fb75d5f59699e97eff1b.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/large_7af4f8cfc774fb75d5f59699e97eff1b.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/medium_7af4f8cfc774fb75d5f59699e97eff1b.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/8/thumb_7af4f8cfc774fb75d5f59699e97eff1b.webp",
+            "width": 850,
+            "height": 449
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/8/50274d2c94458ef9e1737ec3c167c9f1.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/8/793f0b164d26960c79a9e78e7f9d0d61.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/8/b64ce28e1bc60b9fab1bddfa61edfb9b.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/8/6bf5d200af3d0f44b233e7d2d3a868ba.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Gokyo Chola & EBC Trek, Everest region, Nepal",
+        "localFolder": "/images/trips/gokyo-chola-ebc-trek/"
+      }
+    },
+    {
+      "id": "annapurna-base-camp-trekking",
+      "name": "Annapurna Base Camp Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/annapurna-base-camp-trekking",
+      "country": "Nepal",
+      "region": "Annapurna",
+      "durationDays": 13,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 895,
+        "regularPerPerson": 999,
+        "saving": 104,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 999
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 895
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 875
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 860
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 845
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 4130,
+        "feet": 13549,
+        "location": "Annapurna Base Camp"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star Kathmandu, 2/3-star Pokhara; teahouses on trek",
+      "meals": "All meals on trek; farewell dinner",
+      "transport": "Tourist bus Kathmandu-Pokhara; private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Trek through Gurung villages and rhododendron forest to the Annapurna Sanctuary at 4,130 m.",
+      "highlights": [
+        "Views of Annapurna I and Machapuchare",
+        "Traditional Gurung villages",
+        "Rhododendron forests, terraces and alpine meadows",
+        "Sunrise at Annapurna Base Camp",
+        "Jhinu Danda hot springs",
+        "Birdlife and wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Kathmandu arrival",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Airport pickup to hotel; free afternoon; evening trek briefing."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Visit Swayambhunath, Durbar Square, Pashupatinath and Boudhanath."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-8 hrs",
+          "description": "Tourist bus to Pokhara; explore Phewa Lake and lakeside."
+        },
+        {
+          "day": 4,
+          "title": "Pokhara to Nayapul, trek to Ghandruk",
+          "altitude": "1,940 m",
+          "altitudeMeters": 1940,
+          "duration": "5-6 hrs",
+          "description": "Drive to Nayapul, then hike through forest and terraces to Gurung village Ghandruk."
+        },
+        {
+          "day": 5,
+          "title": "Ghandruk to Chomrong",
+          "altitude": "2,170 m",
+          "altitudeMeters": 2170,
+          "duration": "~5 hrs",
+          "description": "Descend through terraces, then climb through forest to Chomrong."
+        },
+        {
+          "day": 6,
+          "title": "Chomrong to Dovan",
+          "altitude": "2,600 m",
+          "altitudeMeters": 2600,
+          "duration": "~6 hrs",
+          "description": "Drop to Chomrong Khola, then steep climb through rhododendron forest."
+        },
+        {
+          "day": 7,
+          "title": "Dovan to Deurali",
+          "altitude": "3,230 m",
+          "altitudeMeters": 3230,
+          "duration": "~4 hrs",
+          "description": "Riverside walk into alpine terrain; afternoon rest to acclimatize."
+        },
+        {
+          "day": 8,
+          "title": "Deurali to Annapurna Base Camp",
+          "altitude": "4,130 m",
+          "altitudeMeters": 4130,
+          "duration": "6-7 hrs",
+          "description": "Highlight day: trek to base camp and overnight among the Annapurna peaks."
+        },
+        {
+          "day": 9,
+          "title": "ABC to Bamboo",
+          "altitude": "2,310 m",
+          "altitudeMeters": 2310,
+          "duration": "~6 hrs",
+          "description": "Descend the same route, seeing the scenery from new angles."
+        },
+        {
+          "day": 10,
+          "title": "Bamboo to Jhinu Danda (hot springs)",
+          "altitude": "1,780 m",
+          "altitudeMeters": 1780,
+          "duration": "~6 hrs",
+          "description": "Walk to Jhinu Danda and relax in the hot springs."
+        },
+        {
+          "day": 11,
+          "title": "Jhinu Danda to Nayapul, drive to Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~6 hrs + 1 hr drive",
+          "description": "Hike to Nayapul, drive to Pokhara, farewell dinner with the team."
+        },
+        {
+          "day": 12,
+          "title": "Drive to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-8 hrs",
+          "description": "Bus back to Kathmandu; free evening."
+        },
+        {
+          "day": 13,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, free time, airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "2 nights Pokhara hotel",
+        "Farewell dinner",
+        "Kathmandu-Pokhara tourist bus"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "ACAP",
+        "TIMS card"
+      ],
+      "acclimatization": "Afternoon rest at Deurali (3,230 m) before ABC; hydrate; carry altitude medication.",
+      "connectivity": "Wi-Fi at most teahouses; mobile reliable in larger villages, sporadic higher up.",
+      "faqs": [
+        {
+          "question": "What is the Annapurna Base Camp Trek?",
+          "answer": "A popular route to the base of Annapurna with views of Annapurna I, Annapurna South and Machapuchare; usually 10-14 days."
+        },
+        {
+          "question": "What is the best time to trek to Annapurna Base Camp?",
+          "answer": "Mar-May (rhododendrons) and Sep-Nov (clear air)."
+        },
+        {
+          "question": "Do I need a permit to trek to Annapurna Base Camp?",
+          "answer": "Yes: ACAP and TIMS card, from Pokhara or Kathmandu."
+        },
+        {
+          "question": "What is the level of difficulty for the Annapurna Base Camp Trek?",
+          "answer": "Moderate to challenging; base camp ~4,130 m (13,550 ft) with long, steep days."
+        },
+        {
+          "question": "What kind of accommodation can I expect?",
+          "answer": "Teahouses with beds, meals and shared bathrooms; more basic higher up."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Warm sleeping bag, boots, layers, waterproof jacket, poles, first-aid kit, snacks, bottle, purification tablets."
+        },
+        {
+          "question": "Is it safe to trek to Annapurna Base Camp?",
+          "answer": "Generally safe; altitude sickness is the main risk, managed by acclimatization and a guide."
+        },
+        {
+          "question": "Can I trek solo, or do I need a guide?",
+          "answer": "Solo is possible; a guide is strongly recommended for first-timers."
+        },
+        {
+          "question": "How physically fit do I need to be?",
+          "answer": "Moderate fitness; cardio, leg strength and hill training beforehand."
+        },
+        {
+          "question": "What kind of food can I expect during the trek?",
+          "answer": "Dal bhat, noodle soup, curries, some Western dishes; teahouses can meet dietary needs if told in advance."
+        }
+      ],
+      "dataNotes": "ABC height 13,549 vs 13,546 ft; Pokhara hotel 3-star vs 2-star.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/e795e9cb454a4301ae5fd30366bcc6d0.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/medium_e795e9cb454a4301ae5fd30366bcc6d0.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/374b7044f270f475eb0a06b9146b58ff.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/large_374b7044f270f475eb0a06b9146b58ff.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/medium_374b7044f270f475eb0a06b9146b58ff.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/thumb_374b7044f270f475eb0a06b9146b58ff.webp",
+            "width": 1920,
+            "height": 1018
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/e795e9cb454a4301ae5fd30366bcc6d0.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/large_e795e9cb454a4301ae5fd30366bcc6d0.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/medium_e795e9cb454a4301ae5fd30366bcc6d0.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/3/thumb_e795e9cb454a4301ae5fd30366bcc6d0.webp",
+            "width": 1920,
+            "height": 1280
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/3/e7f3009cb50a87255f47b44cb0f6737d.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Annapurna Base Camp Trekking, Annapurna region, Nepal",
+        "localFolder": "/images/trips/annapurna-base-camp-trekking/"
+      }
+    },
+    {
+      "id": "annapurna-circuit-trekking",
+      "name": "Annapurna Circuit Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/annapurna-circuit-trekking",
+      "country": "Nepal",
+      "region": "Annapurna",
+      "durationDays": 17,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 950,
+        "regularPerPerson": 1040,
+        "saving": 90,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1040
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 950
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 935
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 920
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": null
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 5416,
+        "feet": 17769,
+        "location": "Thorong La Pass"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "Deluxe/3-star hotel in Kathmandu & Pokhara; teahouses on trek",
+      "meals": "Breakfast in Kathmandu & Pokhara; all meals on trek",
+      "transport": "All ground transport per itinerary",
+      "dailyWalking": null,
+      "distance": "160-230 km",
+      "overview": "Classic circuit around the Annapurna massif over Thorong La, from subtropical forest to high desert, ending via Poon Hill.",
+      "highlights": [
+        "Scenery from subtropical forest to high desert",
+        "Gurung and Thakali villages",
+        "Crossing Thorong La Pass (5,416 m)",
+        "Tatopani hot springs",
+        "Poon Hill sunrise",
+        "Sunset over Annapurna and Dhaulagiri"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Airport transfer to hotel, rest, Nepali dinner."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Swayambhunath and Durbar Square; trek briefing and gear check."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Syange/Jagat",
+          "altitude": "1,100 m",
+          "altitudeMeters": 1100,
+          "duration": "8-10 hrs drive",
+          "description": "Long drive along the Marsyangdi River to the trailhead lodge."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Dharapani",
+          "altitude": "1,960 m",
+          "altitudeMeters": 1960,
+          "duration": "7-8 hrs",
+          "description": "Through forests and Gurung villages to Dharapani."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Chame",
+          "altitude": "2,710 m",
+          "altitudeMeters": 2710,
+          "duration": "5-6 hrs",
+          "description": "Cross suspension bridges to Chame; hot springs in the district centre."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Pisang",
+          "altitude": "3,300 m",
+          "altitudeMeters": 3300,
+          "duration": "5-6 hrs",
+          "description": "Annapurna views on the way to Pisang; explore the village."
+        },
+        {
+          "day": 7,
+          "title": "Upper Pisang to Manang",
+          "altitude": "3,500 m",
+          "altitudeMeters": 3500,
+          "duration": "6-7 hrs",
+          "description": "Via Upper Pisang to the lively town of Manang."
+        },
+        {
+          "day": 8,
+          "title": "Manang rest day",
+          "altitude": "3,500 m",
+          "altitudeMeters": 3500,
+          "duration": null,
+          "description": "Rest and acclimatize; optional short walks and shopping."
+        },
+        {
+          "day": 9,
+          "title": "Manang to Yak Kharka",
+          "altitude": "4,110 m",
+          "altitudeMeters": 4110,
+          "duration": "3-4 hrs",
+          "description": "Past yaks and horses to the quiet settlement of Yak Kharka."
+        },
+        {
+          "day": 10,
+          "title": "Yak Kharka to Thorong Phedi",
+          "altitude": "4,600 m",
+          "altitudeMeters": 4600,
+          "duration": "3-4 hrs",
+          "description": "Rougher terrain up to Thorong Phedi; prepare for the pass."
+        },
+        {
+          "day": 11,
+          "title": "Thorong Phedi over Thorong La (5,416 m) to Muktinath",
+          "altitude": "3,800 m",
+          "altitudeMeters": 3800,
+          "duration": "7-8 hrs",
+          "description": "Early start over Thorong La (5,416 m), descend to sacred Muktinath."
+        },
+        {
+          "day": 12,
+          "title": "Drive Muktinath to Tatopani",
+          "altitude": "1,200 m",
+          "altitudeMeters": 1200,
+          "duration": "6-8 hrs drive",
+          "description": "Drive down to Tatopani and soak in the hot springs."
+        },
+        {
+          "day": 13,
+          "title": "Tatopani to Ghorepani",
+          "altitude": "2,850 m",
+          "altitudeMeters": 2850,
+          "duration": "7-8 hrs",
+          "description": "Through forests and villages up to Ghorepani."
+        },
+        {
+          "day": 14,
+          "title": "Ghorepani (Poon Hill sunrise) to Tadapani",
+          "altitude": "2,710 m",
+          "altitudeMeters": 2710,
+          "duration": "6-7 hrs",
+          "description": "Sunrise at Poon Hill, then rhododendron forest to Tadapani."
+        },
+        {
+          "day": 15,
+          "title": "Tadapani to Ghandruk, Nayapul, drive to Pokhara",
+          "altitude": "850 m",
+          "altitudeMeters": 850,
+          "duration": "6-7 hrs + 1 hr drive",
+          "description": "Trek via Ghandruk to Nayapul, drive to Pokhara."
+        },
+        {
+          "day": 16,
+          "title": "Drive Pokhara to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6 hrs",
+          "description": "Drive back to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 17,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast and airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "ACAP",
+        "TIMS card"
+      ],
+      "acclimatization": "Rest day in Manang (3,500 m) before Thorong La (5,416 m).",
+      "connectivity": null,
+      "faqs": [
+        {
+          "question": "What is the Annapurna Circuit Trek?",
+          "answer": "A loop around the Annapurna massif, ~160-230 km depending on route, usually 12-21 days."
+        },
+        {
+          "question": "Do I need a permit for the Annapurna Circuit Trek?",
+          "answer": "Yes: ACAP and TIMS card, from Pokhara or Kathmandu."
+        },
+        {
+          "question": "What is the level of difficulty of the Annapurna Circuit Trek?",
+          "answer": "Moderate to challenging, peaking at Thorong La 5,416 m (17,769 ft); acclimatization essential."
+        },
+        {
+          "question": "When is the best time to trek the Annapurna Circuit?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov)."
+        },
+        {
+          "question": "What kind of accommodation is available along the trek?",
+          "answer": "Teahouses with bedding, meals and shared bathrooms; simpler in remote areas."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Warm sleeping bag, boots, layers, waterproof jacket, poles, first-aid kit, bottle and purification tablets."
+        },
+        {
+          "question": "Is it safe to trek the Annapurna Circuit?",
+          "answer": "Generally safe; altitude sickness is the main risk and a guide helps with emergencies."
+        },
+        {
+          "question": "Can I trek solo, or should I hire a guide?",
+          "answer": "Solo is allowed; a guide is strongly recommended for first-timers."
+        },
+        {
+          "question": "How fit do I need to be for the trek?",
+          "answer": "Reasonable fitness; build up with cardio, leg strength and hill walking for months beforehand."
+        },
+        {
+          "question": "What type of food can I expect during the trek?",
+          "answer": "Dal bhat, noodle soup, curries and snacks; tell your guide about dietary needs."
+        }
+      ],
+      "dataNotes": "Hotel 'deluxe' vs '3-star'; duration ranges 12-21 days in text; no 16-20 pax price tier.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/21b2a9b59ce322199d1b9b572231764f.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/medium_21b2a9b59ce322199d1b9b572231764f.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/21b2a9b59ce322199d1b9b572231764f.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/large_21b2a9b59ce322199d1b9b572231764f.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/medium_21b2a9b59ce322199d1b9b572231764f.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/thumb_21b2a9b59ce322199d1b9b572231764f.webp",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/5c89236b729084b3d86c0f1fdbe4ef2b.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/large_5c89236b729084b3d86c0f1fdbe4ef2b.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/medium_5c89236b729084b3d86c0f1fdbe4ef2b.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/4/thumb_5c89236b729084b3d86c0f1fdbe4ef2b.webp",
+            "width": 850,
+            "height": 449
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/4/10b0e4ebad67ad154493d3db83bad22b.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/4/2fb86b3e931788ed7441644439841eb9.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/4/0dc0a495cf8004d0753c3f43102bf3e2.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/4/7e741f62f5dc2dcd2582133fde46a5a5.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Annapurna Circuit Trekking, Annapurna region, Nepal",
+        "localFolder": "/images/trips/annapurna-circuit-trekking/"
+      }
+    },
+    {
+      "id": "ghorepani-poon-hill-trekking",
+      "name": "Ghorepani Poon Hill Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/ghorepani-poon-hill-trekking",
+      "country": "Nepal",
+      "region": "Annapurna",
+      "durationDays": 12,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 830,
+        "regularPerPerson": 930,
+        "saving": 100,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 930
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 830
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 810
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 795
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 780
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 3210,
+        "feet": 10531,
+        "location": "Poon Hill"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "Min 2 (single supplement $100)",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star Kathmandu, 2/3-star Pokhara; teahouses on trek",
+      "meals": "Breakfast in Kathmandu & Pokhara; all meals on trek; farewell dinner",
+      "transport": "Tourist bus Kathmandu-Pokhara-Kathmandu; private vehicle",
+      "dailyWalking": "5-7 hrs",
+      "distance": null,
+      "overview": "Short, family-friendly Annapurna trek to the Poon Hill sunrise viewpoint over Annapurna and Dhaulagiri.",
+      "highlights": [
+        "Poon Hill sunrise over Annapurna & Dhaulagiri",
+        "Gurung and Magar villages",
+        "Spring rhododendron forests",
+        "Easy terrain suited to beginners and families",
+        "Ghandruk village and museum",
+        "Pokhara sightseeing and Phewa Lake boat ride"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Airport pickup, hotel, evening dinner and trek briefing."
+        },
+        {
+          "day": 2,
+          "title": "Full-day sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Swayambhunath and Durbar Square; prepare for the trek."
+        },
+        {
+          "day": 3,
+          "title": "Kathmandu to Pokhara by tourist bus",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "7-8 hrs",
+          "description": "Tourist bus (202 km) to Pokhara; free evening by the lake."
+        },
+        {
+          "day": 4,
+          "title": "Pokhara to Tirkhedhunga",
+          "altitude": "1,577 m",
+          "altitudeMeters": 1577,
+          "duration": "1.5 hr drive + 3-4 hrs",
+          "description": "Drive to Nayapul, walk to Tirkhedhunga."
+        },
+        {
+          "day": 5,
+          "title": "Tirkhedhunga to Ghorepani",
+          "altitude": "2,840 m",
+          "altitudeMeters": 2840,
+          "duration": "6-7 hrs",
+          "description": "Climb through rhododendron forest to Ghorepani."
+        },
+        {
+          "day": 6,
+          "title": "Poon Hill sunrise, trek to Tadapani",
+          "altitude": "2,660 m",
+          "altitudeMeters": 2660,
+          "duration": "5-6 hrs",
+          "description": "Pre-dawn hike up Poon Hill for sunrise, breakfast, walk to Tadapani."
+        },
+        {
+          "day": 7,
+          "title": "Tadapani to Ghandruk",
+          "altitude": "1,940 m",
+          "altitudeMeters": 1940,
+          "duration": "4-5 hrs",
+          "description": "Descend to Ghandruk, a Gurung village with a local museum."
+        },
+        {
+          "day": 8,
+          "title": "Ghandruk to Deurali",
+          "altitude": "2,150 m",
+          "altitudeMeters": 2150,
+          "duration": "5-6 hrs",
+          "description": "Walk to the quieter settlement of Deurali."
+        },
+        {
+          "day": 9,
+          "title": "Deurali to Pokhara",
+          "altitude": "850 m",
+          "altitudeMeters": 850,
+          "duration": "6-7 hrs",
+          "description": "Descend back to Pokhara."
+        },
+        {
+          "day": 10,
+          "title": "Sightseeing in Pokhara Valley",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Pokhara sightseeing: Peace Pagoda, Devi's Fall, Gupteshwor Cave, optional Phewa boat ride."
+        },
+        {
+          "day": 11,
+          "title": "Pokhara to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Drive back to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 12,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, free time, airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Pokhara hotel with breakfast",
+        "Farewell dinner",
+        "Tourist bus Kathmandu-Pokhara-Kathmandu"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "ACAP",
+        "TIMS card"
+      ],
+      "acclimatization": "Low altitude (max ~3,210 m); hydrate and watch for symptoms.",
+      "connectivity": null,
+      "faqs": [
+        {
+          "question": "What is the Ghorepani Poon Hill Trek?",
+          "answer": "A short 4-5 day Annapurna trek known for sunrise over Annapurna and Dhaulagiri."
+        },
+        {
+          "question": "When is the best time to do it?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov)."
+        },
+        {
+          "question": "Do I need a permit?",
+          "answer": "Yes, ACAP, from Pokhara or Kathmandu."
+        },
+        {
+          "question": "What is the difficulty level?",
+          "answer": "Easy to moderate, with some uphill sections, especially to Poon Hill."
+        },
+        {
+          "question": "What accommodation is available?",
+          "answer": "Teahouses with basic rooms, meals and often hot showers."
+        },
+        {
+          "question": "What should I pack?",
+          "answer": "Sleeping bag, layers, boots, waterproof jacket, poles, water bottle, sunscreen, first-aid kit."
+        },
+        {
+          "question": "Is it safe?",
+          "answer": "Generally safe on marked trails; stay hydrated and acclimatize; a guide helps."
+        },
+        {
+          "question": "Can I trek solo or do I need a guide?",
+          "answer": "Solo is possible; a guide is recommended for beginners."
+        },
+        {
+          "question": "How fit do I need to be?",
+          "answer": "Moderate fitness for several hours of walking a day; cardio training helps."
+        },
+        {
+          "question": "What food is available?",
+          "answer": "Dal bhat, curries, noodles and snacks; tell your guide about dietary needs."
+        }
+      ],
+      "dataNotes": "Max altitude 3,120 m in specs vs Poon Hill 3,210 m; Pokhara hotel 3-star vs 2-star.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/efd59dc291c6c69f31382d38ff604754.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/medium_efd59dc291c6c69f31382d38ff604754.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/efd59dc291c6c69f31382d38ff604754.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/large_efd59dc291c6c69f31382d38ff604754.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/medium_efd59dc291c6c69f31382d38ff604754.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/thumb_efd59dc291c6c69f31382d38ff604754.webp",
+            "width": 1920,
+            "height": 1389
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/844245c06cc2234d84c168928e69a4e9.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/large_844245c06cc2234d84c168928e69a4e9.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/medium_844245c06cc2234d84c168928e69a4e9.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/5/thumb_844245c06cc2234d84c168928e69a4e9.webp",
+            "width": 850,
+            "height": 449
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/5/10ea0d6918c04202ff685aee52349bf5.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/5/5466992799f2e4a4b9af5ad2cd7a8613.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/5/591fdca05b1aff4796b0108c42c0564c.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/5/7baacd75b14239d15148261dbf8cf24a.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Ghorepani Poon Hill Trekking, Annapurna region, Nepal",
+        "localFolder": "/images/trips/ghorepani-poon-hill-trekking/"
+      }
+    },
+    {
+      "id": "mardi-himal-trekking",
+      "name": "Mardi Himal Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/mardi-himal-trekking",
+      "country": "Nepal",
+      "region": "Annapurna",
+      "durationDays": 13,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 900,
+        "regularPerPerson": 1005,
+        "saving": 105,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1005
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 900
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 885
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 870
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 855
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 4250,
+        "feet": 13943,
+        "location": "Mardi Himal Base Camp area"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "Min 2 (single supplement $100)",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star Kathmandu, 2-star Pokhara; teahouses on trek",
+      "meals": "Breakfast in Kathmandu & Pokhara; all meals on trek; farewell dinner",
+      "transport": "Tourist bus Kathmandu-Pokhara; private car sightseeing",
+      "dailyWalking": "5-7 hrs",
+      "distance": null,
+      "overview": "Less-crowded Annapurna ridge trek to Mardi Himal Base Camp with close views of Machapuchare.",
+      "highlights": [
+        "Close views of Mardi Himal, Machapuchare, Hiunchuli",
+        "Quieter, less-crowded trail",
+        "Traditional villages",
+        "Forests and alpine meadows",
+        "Mardi Himal Base Camp",
+        "Short trek, big rewards"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Airport pickup, hotel, rest, traditional dinner."
+        },
+        {
+          "day": 2,
+          "title": "Full-day Kathmandu Valley sightseeing",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Swayambhunath, Durbar Square, Pashupatinath and Boudhanath."
+        },
+        {
+          "day": 3,
+          "title": "Kathmandu to Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-8 hrs drive",
+          "description": "Drive or short flight to Pokhara; relax by Phewa Lake."
+        },
+        {
+          "day": 4,
+          "title": "Pokhara (Kande) to Pothana",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "3-4 hrs",
+          "description": "Drive to Kande, hike through forest and villages to Pothana with Annapurna views."
+        },
+        {
+          "day": 5,
+          "title": "Pothana to Forest Camp",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Through rhododendron forest to Forest Camp."
+        },
+        {
+          "day": 6,
+          "title": "Forest Camp to Low Camp",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "4-5 hrs",
+          "description": "Climb to Low Camp through changing vegetation."
+        },
+        {
+          "day": 7,
+          "title": "Low Camp to High Camp",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "3-4 hrs",
+          "description": "Steeper trail to High Camp, with top views of Mardi Himal."
+        },
+        {
+          "day": 8,
+          "title": "Explore High Camp / Mardi Base Camp",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "4-5 hrs round trip",
+          "description": "Round-trip hike to Mardi Himal Base Camp, back to High Camp."
+        },
+        {
+          "day": 9,
+          "title": "High Camp to Sidding",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "5-6 hrs",
+          "description": "Descend through forest and villages to Sidding."
+        },
+        {
+          "day": 10,
+          "title": "Sidding to Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "4-5 hrs",
+          "description": "Hike back to Pokhara and check in."
+        },
+        {
+          "day": 11,
+          "title": "Sightseeing around Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Visit World Peace Pagoda, Devi's Fall, Gupteshwor Cave; optional boat ride."
+        },
+        {
+          "day": 12,
+          "title": "Pokhara to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-8 hrs drive",
+          "description": "Drive back to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 13,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, free time, airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "3 nights 2-star Pokhara hotel",
+        "Kathmandu & Pokhara sightseeing",
+        "Tourist bus Kathmandu-Pokhara-Kathmandu",
+        "Farewell dinner"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "ACAP",
+        "TIMS card"
+      ],
+      "acclimatization": "Acclimatize before ~4,500 m base camp; rest when needed.",
+      "connectivity": "Wi-Fi at many teahouses; mobile limited higher up; share itinerary with family.",
+      "faqs": [
+        {
+          "question": "What is the Mardi Himal Trek?",
+          "answer": "A lesser-known Annapurna route to a base camp at ~4,500 m (14,763 ft), with quiet trails and forest."
+        },
+        {
+          "question": "When is the best time to trek to Mardi Himal?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov)."
+        },
+        {
+          "question": "Do I need a permit for the Mardi Himal Trek?",
+          "answer": "Yes: ACAP and TIMS card, from Pokhara or Kathmandu."
+        },
+        {
+          "question": "What is the level of difficulty for the Mardi Himal Trek?",
+          "answer": "Moderate, with steep sections and a high point ~4,500 m."
+        },
+        {
+          "question": "What kind of accommodation is available along the trek?",
+          "answer": "Basic teahouses; more basic higher up."
+        },
+        {
+          "question": "Is it safe to trek to Mardi Himal?",
+          "answer": "Generally safe; acclimatize, rest when needed and consider a guide."
+        },
+        {
+          "question": "Can I trek solo, or should I hire a guide?",
+          "answer": "Possible solo; a guide is recommended if you lack altitude experience."
+        },
+        {
+          "question": "How fit do I need to be for the trek?",
+          "answer": "Moderate fitness; cardio, leg strength and hill practice beforehand."
+        },
+        {
+          "question": "What type of food can I expect during the trek?",
+          "answer": "Dal bhat, noodle soup, curries and some Western dishes; mention dietary needs in advance."
+        }
+      ],
+      "dataNotes": "Max altitude 4,250 m vs ~4,500 m in overview; permits ACAP vs 'national park'; price tier '2-5' overlaps '5-9'.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/6/8c406b9e06e22e7d8dea608680dd5b94.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/6/medium_8c406b9e06e22e7d8dea608680dd5b94.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/6/8c406b9e06e22e7d8dea608680dd5b94.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/6/large_8c406b9e06e22e7d8dea608680dd5b94.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/6/medium_8c406b9e06e22e7d8dea608680dd5b94.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/6/thumb_8c406b9e06e22e7d8dea608680dd5b94.webp",
+            "width": 1920,
+            "height": 1280
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/6/301861bed8a7331aa8e29a46c29e361d.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/6/aa5e683526aa048269f0a15390173564.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Mardi Himal Trekking, Annapurna region, Nepal",
+        "localFolder": "/images/trips/mardi-himal-trekking/"
+      }
+    },
+    {
+      "id": "langtang-valley-and-gosaikunda-trek",
+      "name": "Langtang Valley and Gosaikunda Trek",
+      "url": "https://www.himalayandiscoverytrek.com/trips/langtang-valley-and-gosaikunda-trek",
+      "country": "Nepal",
+      "region": "Langtang",
+      "durationDays": 14,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1185,
+        "regularPerPerson": 1295,
+        "saving": 110,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1295
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1185
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1170
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1155
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1140
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 4380,
+        "feet": 14370,
+        "location": "Gosaikunda area"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star/deluxe hotel in Kathmandu; teahouses on trek",
+      "meals": "All meals on trek; welcome or farewell dinner",
+      "transport": "Private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Langtang Valley to Kyanjin Gompa, then over to the sacred Gosaikunda lakes, with Tamang culture.",
+      "highlights": [
+        "Langtang Valley scenery",
+        "Kyanjin Gompa with Langtang Lirung views",
+        "Sacred Gosaikunda lakes",
+        "Tamang and Sherpa culture",
+        "Subtropical forest to high meadows",
+        "Local teahouse food"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Airport pickup to Thamel hotel; evening briefing with guide and group."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Visit Durbar Square, Swayambhunath and Boudhanath; prepare for trek."
+        },
+        {
+          "day": 3,
+          "title": "Drive Kathmandu to Syabrubesi",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "7-8 hrs drive",
+          "description": "Scenic drive to Syabrubesi, gateway to the Langtang region."
+        },
+        {
+          "day": 4,
+          "title": "Syabrubesi to Lama Hotel",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Rhododendron and bamboo forest beside the Langtang River to Lama Hotel."
+        },
+        {
+          "day": 5,
+          "title": "Lama Hotel to Langtang",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "5-6 hrs",
+          "description": "Steady climb with Langtang Lirung views to Langtang village."
+        },
+        {
+          "day": 6,
+          "title": "Langtang to Kyanjin Gompa",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "3-4 hrs",
+          "description": "Over alpine meadows to the monastery at Kyanjin Gompa."
+        },
+        {
+          "day": 7,
+          "title": "Excursion day at Kyanjin Gompa (optional Kyanjin Ri)",
+          "altitude": "4,773 m (Kyanjin Ri)",
+          "altitudeMeters": 4773,
+          "duration": null,
+          "description": "Acclimatization; optional Kyanjin Ri or glacier hike; local culture."
+        },
+        {
+          "day": 8,
+          "title": "Kyanjin Gompa to Lama Hotel",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Descend back down the valley to Lama Hotel."
+        },
+        {
+          "day": 9,
+          "title": "Lama Hotel to Thulo Syabru",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "5-6 hrs",
+          "description": "Climb through forest and terraces to Thulo Syabru."
+        },
+        {
+          "day": 10,
+          "title": "Thulo Syabru to Cholang Pati",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Forest ascent to quiet Cholang Pati with peak views."
+        },
+        {
+          "day": 11,
+          "title": "Cholang Pati to Gosaikunda",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Gradual rocky climb to the sacred Gosaikunda lakes."
+        },
+        {
+          "day": 12,
+          "title": "Gosaikunda to Dhunche",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Descend through forest and villages to Dhunche."
+        },
+        {
+          "day": 13,
+          "title": "Drive Dhunche to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs drive",
+          "description": "Drive back to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 14,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, free time, airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Welcome or farewell dinner",
+        "Private vehicle transport"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Langtang National Park permit",
+        "TIMS card"
+      ],
+      "acclimatization": "Acclimatization day at Kyanjin Gompa (Day 7); descend if severe symptoms.",
+      "connectivity": null,
+      "faqs": [
+        {
+          "question": "What is the Langtang Valley and Gosaikunda Trek?",
+          "answer": "A Langtang National Park trek through the valley to the Gosaikunda Lakes and Tamang/Sherpa villages; 10-15 days."
+        },
+        {
+          "question": "When is the best time to trek?",
+          "answer": "Spring (Mar-May) and autumn (Sep-Nov); winter is snowy and monsoon makes trails muddy."
+        },
+        {
+          "question": "What level of fitness is required?",
+          "answer": "Moderate to challenging; build endurance with hiking, cardio and strength training."
+        },
+        {
+          "question": "How do I reach the starting point of the trek?",
+          "answer": "Drive Kathmandu-Syabrubesi, about 7-8 hours."
+        },
+        {
+          "question": "What permits do I need?",
+          "answer": "Langtang National Park permit and TIMS card, from Kathmandu or via an agency."
+        },
+        {
+          "question": "What kind of accommodations can I expect?",
+          "answer": "Teahouses with mostly shared rooms and communal dining; basic but comfortable."
+        },
+        {
+          "question": "How do I manage altitude sickness?",
+          "answer": "Ascend gradually, hydrate, watch symptoms, descend and tell your guide if severe."
+        },
+        {
+          "question": "Is it necessary to hire a guide?",
+          "answer": "Not required but strongly recommended for safety, navigation, permits and culture."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Boots, warm layers, sleeping bag, backpack, poles, first-aid kit, purification tablets, sunscreen."
+        }
+      ],
+      "dataNotes": "Listed max 4,380 m is lower than Kyanjin Ri (4,773 m) and other heights quoted.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/9/46f84784baeabdce782f414d48719029.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/9/medium_46f84784baeabdce782f414d48719029.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/9/46f84784baeabdce782f414d48719029.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/9/large_46f84784baeabdce782f414d48719029.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/9/medium_46f84784baeabdce782f414d48719029.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/9/thumb_46f84784baeabdce782f414d48719029.webp",
+            "width": 1920,
+            "height": 1280
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/9/dc64ccc5118e397abd7ff6b1c51bfd60.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/9/8a4723742b3dda6ea9fc5666ba2b0302.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/9/f1abd2dbbe026afe3077d73cbc261931.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Langtang Valley and Gosaikunda Trek, Langtang region, Nepal",
+        "localFolder": "/images/trips/langtang-valley-and-gosaikunda-trek/"
+      }
+    },
+    {
+      "id": "helambu-valley-trekking",
+      "name": "Helambu Valley Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/helambu-valley-trekking",
+      "country": "Nepal",
+      "region": "Langtang",
+      "durationDays": 10,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 795,
+        "regularPerPerson": 905,
+        "saving": 110,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 905
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 795
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 780
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 765
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 750
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 3650,
+        "feet": 11975,
+        "location": "Tharepati"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star hotel in Kathmandu; teahouses on trek",
+      "meals": "Breakfast in Kathmandu; all meals on trek; welcome dinner",
+      "transport": "Private vehicle",
+      "dailyWalking": null,
+      "distance": "70-90 km",
+      "overview": "Quiet trek just north of Kathmandu through Tamang and Sherpa (Hyolmo) villages with Langtang and Jugal views.",
+      "highlights": [
+        "Langtang Himal and Jugal views",
+        "Village monasteries and stupas",
+        "Rhododendron forests and birdlife",
+        "Quiet trails close to Kathmandu",
+        "Local food: momos, dal bhat",
+        "Homestay-style village interaction"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Airport pickup to hotel; welcome dinner with guide."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Visit three UNESCO sites; trek briefing and gear check."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Sundarijal, trek to Chisopani",
+          "altitude": "2,140 m",
+          "altitudeMeters": 2140,
+          "duration": null,
+          "description": "Drive to Sundarijal, hike through forest and villages to Chisopani."
+        },
+        {
+          "day": 4,
+          "title": "Chisopani to Gul Bhanjyang",
+          "altitude": "2,140 m",
+          "altitudeMeters": 2140,
+          "duration": null,
+          "description": "Steep start, then pine forest and terraces to Gul Bhanjyang."
+        },
+        {
+          "day": 5,
+          "title": "Gul Bhanjyang to Tharepati",
+          "altitude": "3,640 m",
+          "altitudeMeters": 3640,
+          "duration": null,
+          "description": "Climb to Tharepati, the route's high point, with Langtang and Jugal views."
+        },
+        {
+          "day": 6,
+          "title": "Tharepati to Melamchigaon",
+          "altitude": "2,530 m",
+          "altitudeMeters": 2530,
+          "duration": null,
+          "description": "Descend through forest to a Sherpa village with a monastery."
+        },
+        {
+          "day": 7,
+          "title": "Melamchigaon to Tarke Gyang",
+          "altitude": "2,590 m",
+          "altitudeMeters": 2590,
+          "duration": null,
+          "description": "Easier walk through terraces to the large village of Tarke Gyang."
+        },
+        {
+          "day": 8,
+          "title": "Tarke Gyang to Sermathang",
+          "altitude": "2,610 m",
+          "altitudeMeters": 2610,
+          "duration": null,
+          "description": "Short final day to Sermathang and its gompa."
+        },
+        {
+          "day": 9,
+          "title": "Sermathang to Melamchi Pul Bazaar, drive to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Descend to Melamchi Pul Bazaar, drive to Kathmandu, farewell dinner."
+        },
+        {
+          "day": 10,
+          "title": "Departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast and airport transfer."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Welcome dinner",
+        "Private vehicle transport"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Langtang National Park permit",
+        "TIMS card"
+      ],
+      "acclimatization": "Gradual gain with nights at varied altitudes; guides trained in altitude-sickness prevention.",
+      "connectivity": null,
+      "faqs": [
+        {
+          "question": "What is the Helambu Valley Trek?",
+          "answer": "A scenic 6-10 day Langtang-region route with Tamang and Sherpa villages and Himalayan views."
+        },
+        {
+          "question": "What is the best time to trek in Helambu Valley?",
+          "answer": "Spring and autumn; winter (Dec-Feb) is cold and monsoon (Jun-Aug) wet and slippery."
+        },
+        {
+          "question": "What is the difficulty level of the trek?",
+          "answer": "Moderate with some steep ups and downs; basic fitness needed."
+        },
+        {
+          "question": "What permits do I need for the Helambu Valley Trek?",
+          "answer": "TIMS card and Langtang National Park permit; check current rules."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Boots, warm and waterproof layers, sleeping bag, first-aid kit, poles, bottle, sunscreen, hat."
+        },
+        {
+          "question": "Are there accommodations available along the trek?",
+          "answer": "Yes, basic teahouses to better lodges with meals; book ahead in peak season."
+        },
+        {
+          "question": "What kind of food can I expect on the trek?",
+          "answer": "Mostly dal bhat and curries, some pasta and pancakes; carry snacks."
+        },
+        {
+          "question": "Is it necessary to hire a guide for the trek?",
+          "answer": "Not required but strongly recommended for first-timers; porters available."
+        },
+        {
+          "question": "What are the key highlights of the Helambu Valley Trek?",
+          "answer": "Langtang views, Melamchi Gaon and Tarkeghyang villages, monasteries, forests and terraces."
+        }
+      ],
+      "dataNotes": "Overview says ~4,600 m at Tharepati but itinerary says 3,640 m; Days 3 & 4 both 2,140 m.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/10/6a1c63740924aba30c54ff9678aeb8ec.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/10/medium_6a1c63740924aba30c54ff9678aeb8ec.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/10/6a1c63740924aba30c54ff9678aeb8ec.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/10/large_6a1c63740924aba30c54ff9678aeb8ec.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/10/medium_6a1c63740924aba30c54ff9678aeb8ec.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/10/thumb_6a1c63740924aba30c54ff9678aeb8ec.webp",
+            "width": 1200,
+            "height": 800
+          }
+        ],
+        "slides": [],
+        "alt": "Helambu Valley Trekking, Langtang region, Nepal",
+        "localFolder": "/images/trips/helambu-valley-trekking/"
+      }
+    },
+    {
+      "id": "upper-mustang-trekking",
+      "name": "Upper Mustang Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/upper-mustang-trekking",
+      "country": "Nepal",
+      "region": "Mustang",
+      "durationDays": 18,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 2170,
+        "regularPerPerson": 2300,
+        "saving": 130,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 2300
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 2170
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 2155
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 2140
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 2125
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 4070,
+        "feet": 13353,
+        "location": "Upper Mustang high point"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star Kathmandu, 2/3-star Pokhara; teahouses on trek",
+      "meals": "Breakfast in Kathmandu & Pokhara; all meals on trek; welcome/farewell dinner",
+      "transport": "Pokhara-Jomsom flights; private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Restricted-area trek into the former Kingdom of Lo and its walled capital Lo Manthang.",
+      "highlights": [
+        "Walled city of Lo Manthang",
+        "Ghar Gompa, one of the oldest monasteries",
+        "Red cliffs of Dhakmar",
+        "Medieval Kagbeni",
+        "Muktinath temple",
+        "Canyons and cliffs; possible Tiji Festival"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,300 m",
+          "altitudeMeters": 1300,
+          "duration": null,
+          "description": "Airport pickup to hotel; welcome dinner with guide and group."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Durbar Square, Pashupatinath and Boudhanath; briefing and gear check."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "6-7 hrs",
+          "description": "Bus to Pokhara past valleys, terraces and the Trishuli River."
+        },
+        {
+          "day": 4,
+          "title": "Fly to Jomsom, trek to Kagbeni",
+          "altitude": "2,780 m",
+          "altitudeMeters": 2780,
+          "duration": "30 min flight + 3 hrs",
+          "description": "Flight to Jomsom, then walk to Kagbeni."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Chhuksang",
+          "altitude": "2,920 m",
+          "altitudeMeters": 2920,
+          "duration": "5-6 hrs",
+          "description": "Via Ekle Bhatti to Chhuksang."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Samar",
+          "altitude": "3,290 m",
+          "altitudeMeters": 3290,
+          "duration": "4-5 hrs",
+          "description": "Through desert terrain and canyons to Samar."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Geling",
+          "altitude": "3,440 m",
+          "altitudeMeters": 3440,
+          "duration": "5-6 hrs",
+          "description": "Past prayer flags and chortens to Geling."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Ghami",
+          "altitude": "3,460 m",
+          "altitudeMeters": 3460,
+          "duration": "5-6 hrs",
+          "description": "Through fields and villages to Ghami; visit its monastery."
+        },
+        {
+          "day": 9,
+          "title": "Trek to Charang",
+          "altitude": "3,490 m",
+          "altitudeMeters": 3490,
+          "duration": "3-4 hrs",
+          "description": "Walk to Charang; explore its monastery and old fort."
+        },
+        {
+          "day": 10,
+          "title": "Trek to Lo Manthang",
+          "altitude": "3,730 m",
+          "altitudeMeters": 3730,
+          "duration": "2-3 hrs",
+          "description": "Short walk to Lo Manthang; visit monasteries and the royal palace."
+        },
+        {
+          "day": 11,
+          "title": "Explore Lo Manthang (optional Chhoser)",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Explore Lo Manthang and nearby villages such as Chhoser."
+        },
+        {
+          "day": 12,
+          "title": "Lo Gekar, back to Ghami",
+          "altitude": "3,460 m",
+          "altitudeMeters": 3460,
+          "duration": "~6 hrs",
+          "description": "Visit Lo Gekar Monastery, walk back to Ghami."
+        },
+        {
+          "day": 13,
+          "title": "Trek to Chaile",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~7 hrs",
+          "description": "Long walk down through villages to Chaile."
+        },
+        {
+          "day": 14,
+          "title": "Trek to Muktinath (or Kagbeni)",
+          "altitude": "3,900 m",
+          "altitudeMeters": 3900,
+          "duration": "~6 hrs",
+          "description": "Trek to Muktinath for temples and Dhaulagiri views (or to Kagbeni)."
+        },
+        {
+          "day": 15,
+          "title": "Trek to Jomsom",
+          "altitude": "2,710 m",
+          "altitudeMeters": 2710,
+          "duration": "3-5 hrs",
+          "description": "Follow the Kali Gandaki to Jomsom."
+        },
+        {
+          "day": 16,
+          "title": "Fly Jomsom to Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~25 min flight",
+          "description": "Flight to Pokhara; free day, optional Phewa Lake boat ride."
+        },
+        {
+          "day": 17,
+          "title": "Pokhara to Kathmandu",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Return to Kathmandu by flight or drive; free time."
+        },
+        {
+          "day": 18,
+          "title": "Departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, transfer to Tribhuvan International Airport."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "2 nights Pokhara hotel",
+        "Pokhara-Jomsom flights",
+        "Special Upper Mustang permit",
+        "Welcome/farewell dinner"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Special Upper Mustang restricted-area permit",
+        "ACAP/trekking permit",
+        "TIMS card"
+      ],
+      "acclimatization": "Acclimatization and hydration advised; rest day in Lo Manthang (Day 11).",
+      "connectivity": "Wi-Fi at some lodges; SIM works in parts; remote sections offline.",
+      "faqs": [
+        {
+          "question": "What is the Upper Mustang Trek?",
+          "answer": "A remote route in Mustang District north of the Annapurnas, known for arid landscapes and Tibetan culture."
+        },
+        {
+          "question": "What is the best time to trek in Upper Mustang?",
+          "answer": "Spring and autumn; winter is very cold and monsoon risks landslides."
+        },
+        {
+          "question": "What is the difficulty level of the trek?",
+          "answer": "Moderate to challenging with rocky trails; page cites a high point of ~4,200 m."
+        },
+        {
+          "question": "What permits do I need for the Upper Mustang Trek?",
+          "answer": "Special (costlier) Upper Mustang permit plus TIMS card, arranged in advance via an agency."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Warm clothes, sleeping bag, boots, waterproof jacket, sun protection, first-aid kit, refillable bottle."
+        },
+        {
+          "question": "Are there accommodations available along the trek?",
+          "answer": "Basic, limited teahouses; book early in peak season."
+        },
+        {
+          "question": "What kind of food can I expect on the trek?",
+          "answer": "Tibetan and Nepali food such as momo, thukpa and dal bhat; limited Western options."
+        },
+        {
+          "question": "Is it necessary to hire a guide for the trek?",
+          "answer": "Not mandatory but strongly recommended; porters available."
+        },
+        {
+          "question": "What are the key highlights of the Upper Mustang Trek?",
+          "answer": "Walled Lo Manthang, rock formations, caves, monasteries, Dhaulagiri and Annapurna views."
+        }
+      ],
+      "dataNotes": "Max altitude 4,000/4,070/4,200 m; FAQ mentions Thorong La (not on route); includes mention 'Pokhara-Lukla' flights.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/11/531a25d8c14a3f49cc7e1756b1055535.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/11/medium_531a25d8c14a3f49cc7e1756b1055535.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/11/531a25d8c14a3f49cc7e1756b1055535.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/11/large_531a25d8c14a3f49cc7e1756b1055535.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/11/medium_531a25d8c14a3f49cc7e1756b1055535.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/11/thumb_531a25d8c14a3f49cc7e1756b1055535.webp",
+            "width": 1300,
+            "height": 860
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/11/89e400ff000db16726fc34531c2ebc62.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/11/b2de3065836f9747e654304c7d3c8dd5.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/11/919a7a8c338454b035ee07dee81f0137.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Upper Mustang Trekking, Mustang region, Nepal",
+        "localFolder": "/images/trips/upper-mustang-trekking/"
+      }
+    },
+    {
+      "id": "muktinath-jomsom-trekking",
+      "name": "Muktinath Jomsom Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/muktinath-jomsom-trekking",
+      "country": "Nepal",
+      "region": "Mustang",
+      "durationDays": 15,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1070,
+        "regularPerPerson": 1200,
+        "saving": 130,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1200
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1070
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1055
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1040
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1025
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 3710,
+        "feet": 12171,
+        "location": "Muktinath"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star Kathmandu, 2-star Pokhara; teahouses on trek",
+      "meals": "Breakfast in Kathmandu & Pokhara; all meals on trek; farewell dinner",
+      "transport": "Tourist bus Kathmandu-Pokhara; Jomsom-Pokhara flight",
+      "dailyWalking": "5-7 hrs",
+      "distance": null,
+      "overview": "Kali Gandaki valley trek via Poon Hill to the Muktinath pilgrimage site, ending with a flight from Jomsom.",
+      "highlights": [
+        "Muktinath Temple (Hindu & Buddhist pilgrimage)",
+        "Annapurna and Dhaulagiri views",
+        "Kagbeni, Jomsom and Ghasa villages",
+        "Valleys to arid desert landscapes",
+        "Jomsom apple orchards; Thakali food",
+        "Poon Hill sunrise"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,345 m",
+          "altitudeMeters": 1345,
+          "duration": null,
+          "description": "Airport pickup, hotel check-in, trek briefing."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu Valley sightseeing",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Pashupatinath, Swayambhunath and Boudhanath; welcome dinner."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Pokhara",
+          "altitude": "833 m",
+          "altitudeMeters": 833,
+          "duration": "6-7 hrs",
+          "description": "Scenic bus ride to Pokhara; relax by the lake."
+        },
+        {
+          "day": 4,
+          "title": "Drive to Nayapul, trek to Tikhedunga",
+          "altitude": "1,570 m",
+          "altitudeMeters": 1570,
+          "duration": "1 hr drive + 4-5 hrs",
+          "description": "Drive to Nayapul, trek along the Modi Khola to Tikhedunga."
+        },
+        {
+          "day": 5,
+          "title": "Tikhedunga to Ghorepani",
+          "altitude": "2,874 m",
+          "altitudeMeters": 2874,
+          "duration": "5-6 hrs",
+          "description": "Stone-step climb to Ghorepani."
+        },
+        {
+          "day": 6,
+          "title": "Poon Hill hike, trek to Tatopani",
+          "altitude": "1,190 m",
+          "altitudeMeters": 1190,
+          "duration": "1 hr up + 5-6 hrs",
+          "description": "Sunrise at Poon Hill, then descend through forest to Tatopani hot springs."
+        },
+        {
+          "day": 7,
+          "title": "Tatopani to Ghasa",
+          "altitude": "2,010 m",
+          "altitudeMeters": 2010,
+          "duration": "5-6 hrs",
+          "description": "Follow the Kali Gandaki gorge to Ghasa."
+        },
+        {
+          "day": 8,
+          "title": "Ghasa to Tukche",
+          "altitude": "2,586 m",
+          "altitudeMeters": 2586,
+          "duration": "5-6 hrs",
+          "description": "Climb to Tukche with Dhaulagiri and Annapurna views."
+        },
+        {
+          "day": 9,
+          "title": "Tukche to Kagbeni",
+          "altitude": "2,810 m",
+          "altitudeMeters": 2810,
+          "duration": "5-6 hrs",
+          "description": "From green fields into arid terrain at Kagbeni."
+        },
+        {
+          "day": 10,
+          "title": "Kagbeni to Muktinath",
+          "altitude": "3,802 m",
+          "altitudeMeters": 3802,
+          "duration": "6-7 hrs",
+          "description": "Longest climb to Muktinath; visit its temples and water spouts."
+        },
+        {
+          "day": 11,
+          "title": "Muktinath to Jomsom",
+          "altitude": "2,713 m",
+          "altitudeMeters": 2713,
+          "duration": "5-6 hrs",
+          "description": "Descend the Kali Gandaki valley to Jomsom."
+        },
+        {
+          "day": 12,
+          "title": "Fly to Pokhara; sightseeing",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~30 min flight",
+          "description": "Flight to Pokhara; Phewa Lake and World Peace Pagoda."
+        },
+        {
+          "day": 13,
+          "title": "Leisure day in Pokhara",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Free day: optional paragliding, Mountain Museum or Sarangkot hike."
+        },
+        {
+          "day": 14,
+          "title": "Drive to Kathmandu; farewell dinner",
+          "altitude": "1,345 m",
+          "altitudeMeters": 1345,
+          "duration": "6-7 hrs",
+          "description": "Drive back to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 15,
+          "title": "Transfer to airport",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Transfer to the international airport."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "2 nights Pokhara hotel",
+        "Tourist bus Kathmandu-Pokhara",
+        "Jomsom-Pokhara flight",
+        "Farewell dinner"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "ACAP",
+        "TIMS card"
+      ],
+      "acclimatization": "Gradual ascent; carry altitude and pain medication.",
+      "connectivity": "Wi-Fi at many teahouses; local SIM works in most areas.",
+      "faqs": [
+        {
+          "question": "What is the Muktinath Jomsom Trek?",
+          "answer": "An Annapurna-region route ending at Muktinath, a Hindu and Buddhist pilgrimage site."
+        },
+        {
+          "question": "What is the best time to trek in Muktinath Jomsom?",
+          "answer": "Spring and autumn; winter very cold, monsoon wet and slippery."
+        },
+        {
+          "question": "What is the difficulty level of the trek?",
+          "answer": "Moderate with steep sections higher up; some fitness and experience help."
+        },
+        {
+          "question": "What permits do I need for the trek?",
+          "answer": "TIMS card and ACAP, from Kathmandu or Pokhara."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Boots, warm layers, waterproof jacket, sleeping bag, sun protection, first-aid kit, refillable bottle."
+        },
+        {
+          "question": "Are there accommodations available along the trek?",
+          "answer": "Yes, teahouses with meals; book ahead in peak season."
+        },
+        {
+          "question": "What kind of food can I expect on the trek?",
+          "answer": "Dal bhat, momo, thukpa; limited Western food in remote areas, bring snacks."
+        },
+        {
+          "question": "Is it necessary to hire a guide for the trek?",
+          "answer": "Not mandatory but strongly recommended for first-timers."
+        },
+        {
+          "question": "What are the key highlights of the Muktinath Jomsom Trek?",
+          "answer": "Muktinath Temple's 108 water spouts and eternal flame, mountain views, traditional villages (page also names Marpha)."
+        }
+      ],
+      "dataNotes": "Muktinath altitude 3,710 / 3,760 / 3,800 / 3,802 m in different sections.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/5b8d5041d0e73e0999b9ed89366325e6.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/medium_5b8d5041d0e73e0999b9ed89366325e6.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/16077c82fa3605dd29980df09c8e946a.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/large_16077c82fa3605dd29980df09c8e946a.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/medium_16077c82fa3605dd29980df09c8e946a.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/thumb_16077c82fa3605dd29980df09c8e946a.webp",
+            "width": 1224,
+            "height": 822
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/5b8d5041d0e73e0999b9ed89366325e6.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/large_5b8d5041d0e73e0999b9ed89366325e6.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/medium_5b8d5041d0e73e0999b9ed89366325e6.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/12/thumb_5b8d5041d0e73e0999b9ed89366325e6.webp",
+            "width": 1920,
+            "height": 1080
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/12/0c31f492b449739e8c1b103031c5593e.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/12/33c059d92e9f9ddbfc598a24f76fdae6.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/12/9a5bfdd0ae5704fa71b0adaac2cb8d80.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/12/2bf4c4c828a8c9eab0b1435f6e9cf168.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Muktinath Jomsom Trekking, Mustang region, Nepal",
+        "localFolder": "/images/trips/muktinath-jomsom-trekking/"
+      }
+    },
+    {
+      "id": "manaslu-round-trekking",
+      "name": "Manaslu Round Trekking",
+      "url": "https://www.himalayandiscoverytrek.com/trips/manaslu-round-trekking",
+      "country": "Nepal",
+      "region": "Manaslu",
+      "durationDays": 16,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1460,
+        "regularPerPerson": 1700,
+        "saving": 240,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1700
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1460
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1445
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1430
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1415
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 5106,
+        "feet": 16751,
+        "location": "Larkya La Pass"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star/deluxe hotel in Kathmandu; teahouses on trek",
+      "meals": "Breakfast in Kathmandu; all meals on trek; welcome & farewell dinners",
+      "transport": "Private vehicle",
+      "dailyWalking": "5-8 hrs",
+      "distance": null,
+      "overview": "Restricted-area circuit around Manaslu (8,163 m) crossing the Larkya La Pass.",
+      "highlights": [
+        "Views of Manaslu (8,163 m)",
+        "Gurung and Tibetan-influenced communities",
+        "Crossing Larkya La Pass",
+        "Pungyen Gompa and other monasteries",
+        "Quieter than Everest or Annapurna",
+        "Ancient trade routes"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,320 m",
+          "altitudeMeters": 1320,
+          "duration": null,
+          "description": "Airport pickup to Thamel hotel; welcome dinner."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing and trek preparation",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Tour Durbar Square, Pashupatinath and Boudhanath; trek briefing."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Machha Khola",
+          "altitude": "900 m",
+          "altitudeMeters": 900,
+          "duration": "~7 hrs",
+          "description": "Scenic drive to the trailhead at Machha Khola."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Jagat",
+          "altitude": "1,340 m",
+          "altitudeMeters": 1340,
+          "duration": "~6 hrs",
+          "description": "Along the Budhi Gandaki through forest and villages to Jagat."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Deng via Philim",
+          "altitude": "1,860 m",
+          "altitudeMeters": 1860,
+          "duration": "~6 hrs",
+          "description": "Via Philim, over suspension bridges and through forest to Deng."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Namrung",
+          "altitude": "2,900 m",
+          "altitudeMeters": 2900,
+          "duration": "~5 hrs",
+          "description": "Climb through villages with Manaslu views to Namrung."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Lo-Gaon",
+          "altitude": "3,180 m",
+          "altitudeMeters": 3180,
+          "duration": "~5 hrs",
+          "description": "Forest and terraces with Manaslu massif views to Lo-Gaon."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Sama-Gaon",
+          "altitude": "3,500 m",
+          "altitudeMeters": 3500,
+          "duration": "~6 hrs",
+          "description": "Gradual climb to Sama-Gaon, known for its monasteries."
+        },
+        {
+          "day": 9,
+          "title": "Acclimatization day in Sama-Gaon",
+          "altitude": "3,500 m",
+          "altitudeMeters": 3500,
+          "duration": null,
+          "description": "Rest day; optional Birendra Lake or Pungyen Gompa."
+        },
+        {
+          "day": 10,
+          "title": "Trek to Samdo",
+          "altitude": "3,690 m",
+          "altitudeMeters": 3690,
+          "duration": "~5 hrs",
+          "description": "Toward the Tibetan border to Samdo's Tibetan-style houses."
+        },
+        {
+          "day": 11,
+          "title": "Trek to Dharmasala / Larke Phedi",
+          "altitude": "4,450 m",
+          "altitudeMeters": 4450,
+          "duration": "~4 hrs",
+          "description": "Gradual ascent to Dharmasala, base for the pass."
+        },
+        {
+          "day": 12,
+          "title": "Cross Larkya La (5,106 m) to Bhimthang",
+          "altitude": "3,590 m",
+          "altitudeMeters": 3590,
+          "duration": "~8 hrs",
+          "description": "Hardest day: cross Larkya La (5,106 m), descend to Bhimthang."
+        },
+        {
+          "day": 13,
+          "title": "Trek to Gho",
+          "altitude": "2,535 m",
+          "altitudeMeters": 2535,
+          "duration": "~4 hrs",
+          "description": "Descend through forest to Gho."
+        },
+        {
+          "day": 14,
+          "title": "Trek to Dharapani",
+          "altitude": "1,820 m",
+          "altitudeMeters": 1820,
+          "duration": "~5 hrs",
+          "description": "Descend to Dharapani, joining the Annapurna route."
+        },
+        {
+          "day": 15,
+          "title": "Drive to Kathmandu; farewell dinner",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": "~8 hrs",
+          "description": "Drive back to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 16,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast and transfer to Tribhuvan International Airport."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Farewell dinner",
+        "Manaslu & Annapurna conservation permits; special Manaslu permit"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Special Manaslu permit",
+        "Manaslu (MCAP) and Annapurna (ACAP) conservation permits",
+        "TIMS"
+      ],
+      "acclimatization": "Rest day at Sama-Gaon (Day 9) before Larkya La.",
+      "connectivity": "Wi-Fi at many teahouses; SIM coverage varies in remote areas.",
+      "faqs": [
+        {
+          "question": "What is the Manaslu Round Trek?",
+          "answer": "A circuit around Manaslu (world's 8th-highest) in Gorkha District, usually 13-16 days."
+        },
+        {
+          "question": "What is the best time to trek in Manaslu?",
+          "answer": "Spring and autumn; winter snow and monsoon landslide risk."
+        },
+        {
+          "question": "What is the difficulty level of the trek?",
+          "answer": "Moderate to challenging, crossing Larkya La at 5,160 m (~16,930 ft)."
+        },
+        {
+          "question": "What permits do I need for the trek?",
+          "answer": "Special Manaslu permit (costlier) plus TIMS card, via a registered agency."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Boots, layers, sleeping bag, waterproof jacket, sun protection, first-aid kit, refillable bottle."
+        },
+        {
+          "question": "Are there accommodations available along the trek?",
+          "answer": "Basic teahouses with food and beds; book ahead in peak season."
+        },
+        {
+          "question": "What kind of food can I expect on the trek?",
+          "answer": "Dal bhat, momo, thukpa; few Western options in remote areas."
+        },
+        {
+          "question": "Is it necessary to hire a guide for the trek?",
+          "answer": "Not required but strongly recommended; porters available."
+        },
+        {
+          "question": "What are the key highlights of the Manaslu Round Trek?",
+          "answer": "Manaslu views, Samagaon village, Larkya La, monasteries and wildlife."
+        }
+      ],
+      "dataNotes": "Larkya La 5,106 vs 5,160 m; start Soti Khola (overview) vs Machha Khola (itinerary).",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/868e7abf1aab2ae530b59fc14ea09666.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/medium_868e7abf1aab2ae530b59fc14ea09666.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/868e7abf1aab2ae530b59fc14ea09666.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/large_868e7abf1aab2ae530b59fc14ea09666.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/medium_868e7abf1aab2ae530b59fc14ea09666.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/thumb_868e7abf1aab2ae530b59fc14ea09666.webp",
+            "width": 1920,
+            "height": 1440
+          },
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/1d62779608326b1dcf5e5385d05e2717.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/large_1d62779608326b1dcf5e5385d05e2717.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/medium_1d62779608326b1dcf5e5385d05e2717.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/13/thumb_1d62779608326b1dcf5e5385d05e2717.webp",
+            "width": 850,
+            "height": 449
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/13/fffb30c85cdedb8e496e5991d83f7d47.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/13/5e4d34b61c4731d3dfeca2fd818e50db.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/13/148cf97d85938ac719ad81e2f571ae54.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/13/636a177561d7a9bc658d4fecfd512113.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Manaslu Round Trekking, Manaslu region, Nepal",
+        "localFolder": "/images/trips/manaslu-round-trekking/"
+      }
+    },
+    {
+      "id": "manaslu-tsum-valley-trek",
+      "name": "Manaslu Tsum Valley Trek",
+      "url": "https://www.himalayandiscoverytrek.com/trips/manaslu-tsum-valley-trek",
+      "country": "Nepal",
+      "region": "Manaslu",
+      "durationDays": 19,
+      "price": {
+        "currency": "USD",
+        "offerPerPerson": 1650,
+        "regularPerPerson": 1850,
+        "saving": 200,
+        "groupTiers": [
+          {
+            "pax": "1",
+            "pricePerPerson": 1850
+          },
+          {
+            "pax": "2-4",
+            "pricePerPerson": 1650
+          },
+          {
+            "pax": "5-9",
+            "pricePerPerson": 1635
+          },
+          {
+            "pax": "10-15",
+            "pricePerPerson": 1620
+          },
+          {
+            "pax": "16-20",
+            "pricePerPerson": 1605
+          }
+        ]
+      },
+      "maxAltitude": {
+        "meters": 5160,
+        "feet": 16929,
+        "location": "Larkya La Pass"
+      },
+      "difficulty": "Moderate",
+      "groupSize": "1-16",
+      "bestSeason": [
+        "Mar-May",
+        "Sep-Nov"
+      ],
+      "startPoint": "Kathmandu",
+      "endPoint": "Kathmandu",
+      "accommodation": "3-star/deluxe hotel in Kathmandu; teahouses on trek",
+      "meals": "Breakfast in Kathmandu; all meals on trek; dinner at cultural restaurant",
+      "transport": "Private vehicle",
+      "dailyWalking": null,
+      "distance": null,
+      "overview": "Manaslu circuit with a side trip into the remote, Tibetan-influenced Tsum Valley (Rachen & Mu Gompa).",
+      "highlights": [
+        "Views of Manaslu (8,163 m)",
+        "Tibetan culture of the Tsum Valley",
+        "Mu Gompa and Rachen Gompa",
+        "Crossing Larkya La Pass",
+        "Natural hot springs",
+        "Less-travelled route"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival in Kathmandu",
+          "altitude": "1,400 m",
+          "altitudeMeters": 1400,
+          "duration": null,
+          "description": "Airport pickup to Thamel hotel; welcome dinner with trek team."
+        },
+        {
+          "day": 2,
+          "title": "Drive to Machha Khola",
+          "altitude": "890 m",
+          "altitudeMeters": 890,
+          "duration": "~8 hrs",
+          "description": "Scenic drive along the Budhi Gandaki to Machha Khola."
+        },
+        {
+          "day": 3,
+          "title": "Trek to Jagat",
+          "altitude": "1,340 m",
+          "altitudeMeters": 1340,
+          "duration": "~6 hrs",
+          "description": "Through forest and riverside villages to Jagat."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Lokpa",
+          "altitude": "2,240 m",
+          "altitudeMeters": 2240,
+          "duration": "6-7 hrs",
+          "description": "Forest and terraced fields into the Tsum Valley at Lokpa."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Chumling",
+          "altitude": "2,386 m",
+          "altitudeMeters": 2386,
+          "duration": "4-5 hrs",
+          "description": "Down to the river and gently up to Chumling; optional monastery visit."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Rachen Gompa",
+          "altitude": "3,240 m",
+          "altitudeMeters": 3240,
+          "duration": "~6 hrs",
+          "description": "Climb to Rachen Gompa and meet the monks."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Nile (optional Mu Gompa 3,700 m)",
+          "altitude": "3,361 m",
+          "altitudeMeters": 3361,
+          "duration": "~6 hrs",
+          "description": "Walk to Nile with optional side trip to Mu Gompa (3,700 m)."
+        },
+        {
+          "day": 8,
+          "title": "Return to Chumling",
+          "altitude": "2,386 m",
+          "altitudeMeters": 2386,
+          "duration": "6-7 hrs",
+          "description": "Descend back along the outward route to Chumling."
+        },
+        {
+          "day": 9,
+          "title": "Trek to Deng",
+          "altitude": "1,860 m",
+          "altitudeMeters": 1860,
+          "duration": "~6 hrs",
+          "description": "Descend to Deng as the landscape dries out."
+        },
+        {
+          "day": 10,
+          "title": "Trek to Namrung",
+          "altitude": "2,630 m",
+          "altitudeMeters": 2630,
+          "duration": "~6 hrs",
+          "description": "Steady climb with Manaslu range views to Namrung."
+        },
+        {
+          "day": 11,
+          "title": "Trek to Lho",
+          "altitude": "3,180 m",
+          "altitudeMeters": 3180,
+          "duration": "~5 hrs",
+          "description": "Ascend to the Tibetan-style village of Lho."
+        },
+        {
+          "day": 12,
+          "title": "Trek to Samagaon",
+          "altitude": "3,520 m",
+          "altitudeMeters": 3520,
+          "duration": "~6 hrs",
+          "description": "Walk to Samagaon; explore the village and monastery."
+        },
+        {
+          "day": 13,
+          "title": "Trek to Samdo",
+          "altitude": "3,860 m",
+          "altitudeMeters": 3860,
+          "duration": "4-5 hrs",
+          "description": "Climb to Samdo near the Tibetan border."
+        },
+        {
+          "day": 14,
+          "title": "Acclimatization day at Samdo",
+          "altitude": "3,875 m",
+          "altitudeMeters": 3875,
+          "duration": null,
+          "description": "Acclimatization day; optional viewpoint hikes."
+        },
+        {
+          "day": 15,
+          "title": "Trek to Larkya Phedi",
+          "altitude": "4,480 m",
+          "altitudeMeters": 4480,
+          "duration": "5-6 hrs",
+          "description": "Climb to Larkya Phedi, base for the pass."
+        },
+        {
+          "day": 16,
+          "title": "Cross Larkya La (5,160 m) to Bimthang",
+          "altitude": "3,720 m",
+          "altitudeMeters": 3720,
+          "duration": "~8 hrs",
+          "description": "Early start over Larkya La (5,160 m), descend to Bimthang."
+        },
+        {
+          "day": 17,
+          "title": "Trek to Dharapani",
+          "altitude": "1,963 m",
+          "altitudeMeters": 1963,
+          "duration": "6-7 hrs",
+          "description": "Descend through forest and villages to Dharapani."
+        },
+        {
+          "day": 18,
+          "title": "Drive to Kathmandu via Besi Sahar",
+          "altitude": "1,400 m",
+          "altitudeMeters": 1400,
+          "duration": "8-9 hrs",
+          "description": "Drive via Besi Sahar to Kathmandu; farewell dinner."
+        },
+        {
+          "day": 19,
+          "title": "Final departure",
+          "altitude": null,
+          "altitudeMeters": null,
+          "duration": null,
+          "description": "Breakfast, free time, airport transfer (site numbers this day 18 again)."
+        }
+      ],
+      "includes": [
+        "Airport pickup & drop by private vehicle",
+        "3 nights 3-star Kathmandu hotel with breakfast",
+        "Teahouse accommodation on trek",
+        "All meals during trek (with tea/coffee)",
+        "English-speaking licensed trek leader & porter",
+        "Staff salary, insurance & accommodation",
+        "Down jacket & sleeping bag (returnable)",
+        "Permits, TIMS card & paperwork",
+        "Medical kit carried by trek leader",
+        "Government & local taxes",
+        "Dinner at cultural restaurant",
+        "Manaslu special permit"
+      ],
+      "excludes": [
+        "Lunch & dinner in Kathmandu",
+        "Nepal visa fee & international flights",
+        "Insurance of any kind (travel, evacuation, medical)",
+        "Personal expenses (drinks, laundry, phone, hot showers, tips)",
+        "Costs from delays, weather, road blocks, strikes etc."
+      ],
+      "permits": [
+        "Manaslu special permit",
+        "Tsum Valley permit",
+        "TIMS card"
+      ],
+      "acclimatization": "Acclimatization day at Samdo (Day 14) before Larkya La (5,160 m).",
+      "connectivity": "Wi-Fi at many teahouses; SIM coverage inconsistent in remote areas.",
+      "faqs": [
+        {
+          "question": "What is the Manaslu Tsum Valley Trek?",
+          "answer": "Combines Manaslu views with the Tibetan-influenced Tsum Valley; usually 16-20 days."
+        },
+        {
+          "question": "What is the best time to trek in Manaslu Tsum Valley?",
+          "answer": "Spring and autumn; monsoon landslides and winter snow."
+        },
+        {
+          "question": "What is the difficulty level of the trek?",
+          "answer": "Moderate to challenging, with Larkya La at 5,160 m (16,930 ft)."
+        },
+        {
+          "question": "What permits do I need for the trek?",
+          "answer": "Manaslu special permit and TIMS card, plus a separate Tsum Valley permit, via a registered agency."
+        },
+        {
+          "question": "What should I pack for the trek?",
+          "answer": "Boots, layers, sleeping bag, waterproof jacket, sun protection, first-aid kit, refillable bottle."
+        },
+        {
+          "question": "Are there accommodations available along the trek?",
+          "answer": "Basic teahouses with meals; book ahead in peak season."
+        },
+        {
+          "question": "What kind of food can I expect on the trek?",
+          "answer": "Dal bhat, momo, thukpa; limited Western options."
+        },
+        {
+          "question": "Is it necessary to hire a guide for the trek?",
+          "answer": "Not mandatory but strongly recommended; porters available."
+        },
+        {
+          "question": "What are the key highlights of the Manaslu Tsum Valley Trek?",
+          "answer": "Manaslu views, Tsum Valley, Rachen and Mu Gompa, local Tsum culture."
+        }
+      ],
+      "dataNotes": "Final day numbered 18 twice on page; Samdo 3,860 vs 3,875 m; hotel 'deluxe' vs '3-star'.",
+      "images": {
+        "hero": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/14/ddaffc5e5f26c21fa26f4171058f814b.webp",
+        "card": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/14/medium_ddaffc5e5f26c21fa26f4171058f814b.webp",
+        "gallery": [
+          {
+            "original": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/14/ddaffc5e5f26c21fa26f4171058f814b.webp",
+            "large": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/14/large_ddaffc5e5f26c21fa26f4171058f814b.webp",
+            "medium": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/14/medium_ddaffc5e5f26c21fa26f4171058f814b.webp",
+            "thumb": "https://www.himalayandiscoverytrek.com/storage/trip-galleries/14/thumb_ddaffc5e5f26c21fa26f4171058f814b.webp",
+            "width": 1920,
+            "height": 1280
+          }
+        ],
+        "slides": [
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/14/b3e28181915e4fff7cfac94f20694f19.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/14/21ff4a4b2144e44ae7ccd99beaa3d33e.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/14/268016ebbf3c83a56250993b547b30f1.jpg",
+            "width": 850,
+            "height": 450
+          },
+          {
+            "url": "https://www.himalayandiscoverytrek.com/storage/trip-sliders/14/b8f872f169a7d6cfd0e485ef1e5e8030.jpg",
+            "width": 850,
+            "height": 450
+          }
+        ],
+        "alt": "Manaslu Tsum Valley Trek, Manaslu region, Nepal",
+        "localFolder": "/images/trips/manaslu-tsum-valley-trek/"
+      }
+    }
+  ],
+  "siteImages": {
+    "logo": "https://www.himalayandiscoverytrek.com/assets/front/img/logo.png",
+    "homeBanner": "https://www.himalayandiscoverytrek.com/storage/banners/1/large_fdc4608fb0011a482514e80005607b5e.webp",
+    "nepalArt": "https://www.himalayandiscoverytrek.com/assets/front/img/nepal.webp",
+    "planTrip": "https://www.himalayandiscoverytrek.com/assets/front/img/plan-trip.jpg",
+    "aboutPage": "https://www.himalayandiscoverytrek.com/storage/pages/1/ed76ea44ef09acbf743c82c4ddbb90e9.webp",
+    "heritageArt": "https://www.himalayandiscoverytrek.com/assets/front/img/webpage_art.webp",
+    "activities": {
+      "trekking": "https://www.himalayandiscoverytrek.com/storage/activities/2/medium_865ff5583cd0891ae3d335cb53f2705b.webp",
+      "expedition": "https://www.himalayandiscoverytrek.com/storage/activities/3/medium_mountaineer2.jpg",
+      "culturalTours": "https://www.himalayandiscoverytrek.com/storage/activities/4/medium_6248dd7469b067c43fa4e28395559a02.webp",
+      "wildlifeSafari": "https://www.himalayandiscoverytrek.com/storage/activities/5/medium_1d4a8fdf7bcfa11fe09b955f50bcd4a8.webp"
+    },
+    "whyUsIcons": {
+      "experience": "https://www.himalayandiscoverytrek.com/assets/front/img/experience.webp",
+      "tailor-made": "https://www.himalayandiscoverytrek.com/assets/front/img/tailor-made.webp",
+      "best-price": "https://www.himalayandiscoverytrek.com/assets/front/img/best-price.webp",
+      "support": "https://www.himalayandiscoverytrek.com/assets/front/img/support.webp"
+    },
+    "affiliations": {
+      "nepalGovernment": "https://www.himalayandiscoverytrek.com/assets/front/img/ng.svg",
+      "nepalTourismBoard": "https://www.himalayandiscoverytrek.com/assets/front/img/ntb.svg",
+      "taan": "https://www.himalayandiscoverytrek.com/assets/front/img/taan.svg",
+      "nma": "https://www.himalayandiscoverytrek.com/assets/front/img/nma.svg"
+    },
+    "paymentCards": {
+      "visa": "https://www.himalayandiscoverytrek.com/assets/front/img/card_visa.svg",
+      "mastercard": "https://www.himalayandiscoverytrek.com/assets/front/img/card_mastercard.svg",
+      "americanexpress": "https://www.himalayandiscoverytrek.com/assets/front/img/card_americanexpress.svg",
+      "unionpay": "https://www.himalayandiscoverytrek.com/assets/front/img/card_unionpay.svg"
+    }
+  }
+}

@@ -16,6 +16,12 @@ type ImageCardProps = {
   sizes: string;
   /** Tailwind aspect class; tall portrait by default */
   aspect?: string;
+  /** Small pill in the top-left corner (e.g. a "Save $X" offer) */
+  badge?: React.ReactNode;
+  /** Extra content under the meta row (e.g. a price line) */
+  footer?: React.ReactNode;
+  /** Heading level for the title; defaults to h3 */
+  headingLevel?: "h2" | "h3";
 };
 
 /**
@@ -31,6 +37,9 @@ export default function ImageCard({
   meta = [],
   sizes,
   aspect = "aspect-[3/4]",
+  badge,
+  footer,
+  headingLevel: Heading = "h3",
 }: ImageCardProps) {
   return (
     <article
@@ -46,15 +55,16 @@ export default function ImageCard({
       {/* Darkens the lower half so the white text stays readable on any photo */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/85 via-black/35 via-45% to-transparent" />
 
+      {badge && <div className="absolute left-4 top-5 z-20">{badge}</div>}
       <BookmarkButton label={title} />
 
       <div className="flex h-full flex-col justify-end p-6 text-white">
-        <h3 className="text-2xl font-bold leading-tight">
+        <Heading className="text-2xl font-bold leading-tight">
           {/* Stretched link: its ::after covers the card so the whole card is one click target */}
-          <a href={href} className="after:absolute after:inset-0 after:z-10 after:rounded-3xl focus-visible:ring-0 focus-visible:after:ring-2 focus-visible:after:ring-accent">
+          <a href={href} className="after:absolute after:inset-0 after:z-10 after:rounded-3xl focus-visible:ring-0 focus-visible:after:ring-2 focus-visible:after:ring-saffron">
             {title}
           </a>
-        </h3>
+        </Heading>
 
         {description && <p className="mt-3 line-clamp-2 text-sm leading-relaxed text-white/80">{description}</p>}
 
@@ -68,6 +78,8 @@ export default function ImageCard({
             ))}
           </ul>
         )}
+
+        {footer}
       </div>
     </article>
   );

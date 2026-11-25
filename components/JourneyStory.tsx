@@ -40,7 +40,7 @@ export default function JourneyStory() {
                 </>
               }
             />
-            <p className="mt-6 max-w-md text-lg leading-relaxed text-gray-600">
+            <p className="mt-6 max-w-md text-lg leading-relaxed text-slate">
               From ancient villages to towering peaks, each journey in Nepal is more than a trip. It&apos;s a deeper
               connection to nature, people and a way of life.
             </p>

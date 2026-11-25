@@ -2,7 +2,8 @@ import Image from "next/image";
 import Logo from "@/components/Logo";
 import Reveal from "@/components/Reveal";
 import { SocialIcon } from "@/components/SocialIcons";
-import { contactDetails, socialLinks, tripadvisor } from "@/data/site";
+import { contactDetails, tripadvisor } from "@/data/contact";
+import { socialLinks } from "@/data/site";
 
 // Social profiles shown in the footer's "Follow Us" column
 const footerSocials = socialLinks.filter(({ name }) => name !== "YouTube");
@@ -11,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden">
       {/* Continues the affiliations band, then reaches the sky colour well before the illustration starts, so they blend seamlessly */}
-      <div className="bg-gradient-to-b from-[#DCEBF3] to-[#CFEBFA] to-60% pb-px">
+      <div className="bg-gradient-to-b from-glacier to-[#D6E4ED] to-60% pb-px">
         <Reveal className="container-page relative z-10 grid gap-12 pt-16 text-center lg:grid-cols-[1fr_1.4fr_1fr] lg:items-start lg:text-left">
           {/* Left: logo */}
           <div className="flex justify-center lg:justify-start lg:pt-8">
@@ -20,10 +21,10 @@ export default function Footer() {
 
           {/* Centre: tagline */}
           <div className="text-center font-script lg:pt-24">
-            <p className="text-2xl uppercase tracking-wide text-accent-dark sm:text-3xl">Himalayan Discovery Trek</p>
-            <p className="mt-1 text-4xl text-ink sm:text-5xl">Beyond the Trails,</p>
-            <p className="mt-3 text-xl text-accent-dark sm:text-2xl">Into the Extraordinary.</p>
-            <p className="mt-1 text-2xl text-ink sm:text-3xl">Discover your next adventure in the Himalayas.</p>
+            <p className="text-2xl uppercase tracking-wide text-saffron-text sm:text-3xl">Himalayan Discovery Trek</p>
+            <p className="mt-1 text-4xl text-navy sm:text-5xl">Beyond the Trails,</p>
+            <p className="mt-3 text-xl text-saffron-text sm:text-2xl">Into the Extraordinary.</p>
+            <p className="mt-1 text-2xl text-navy sm:text-3xl">Discover your next adventure in the Himalayas.</p>
           </div>
   
           {/* Right: Tripadvisor + follow + contact */}
@@ -36,20 +37,20 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="mt-3 flex items-center gap-3 rounded-2xl bg-white/80 px-4 py-3 text-left shadow-lg shadow-navy/10 backdrop-blur transition hover:-translate-y-0.5"
               >
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#34E0A1] text-xs font-bold text-ink" aria-hidden="true">
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-tripadvisor/20 text-xs font-bold text-ink" aria-hidden="true">
                   TA
                 </span>
                 <span>
                   <span className="block text-sm font-semibold text-ink">Tripadvisor</span>
-                  <span className="flex items-center gap-1.5 text-sm font-semibold text-[#00AA6C]">
+                  <span className="flex items-center gap-1.5 text-sm font-semibold text-tripadvisor">
                     {tripadvisor.rating}
                     <span className="flex gap-0.5" aria-label={`Rated ${tripadvisor.rating} out of 5`}>
                       {Array.from({ length: 5 }, (_, i) => (
-                        <span key={i} className="h-3 w-3 rounded-full bg-[#00AA6C]" />
+                        <span key={i} className="h-3 w-3 rounded-full bg-tripadvisor" />
                       ))}
                     </span>
                   </span>
-                  <span className="block text-[10px] text-gray-500">{tripadvisor.reviewsLabel}</span>
+                  <span className="block text-[10px] text-muted">{tripadvisor.reviewsLabel}</span>
                 </span>
               </a>
             </div>
@@ -65,7 +66,7 @@ export default function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`Himalayan Discovery Trek on ${name}`}
-                        className="flex h-6 w-6 items-center justify-center rounded text-ink transition-colors hover:text-primary"
+                        className="flex h-6 w-6 items-center justify-center rounded text-ink transition-colors hover:text-navy"
                       >
                         <SocialIcon name={name} className="h-5 w-5" />
                       </a>
@@ -79,7 +80,7 @@ export default function Footer() {
                   {contactDetails.map(({ label, href }, i) => (
                     <li key={i} className="flex h-6 items-center">
                       {href ? (
-                        <a href={href} className="rounded hover:text-primary">
+                        <a href={href} className="rounded hover:text-navy">
                           {label}
                         </a>
                       ) : (
@@ -97,7 +98,7 @@ export default function Footer() {
       {/* Mountain illustration; overlaps the content above on large screens */}
       <div className="relative -mt-8 lg:-mt-[10vw]">
         <Image
-          src="/images/footer-mountains.jpg"
+          src="/images/footer-mountains-glacier.jpg"
           alt=""
           aria-hidden="true"
           width={2400}
@@ -106,7 +107,7 @@ export default function Footer() {
           className="h-48 w-full object-cover object-bottom sm:h-auto"
         />
         {/* Blend the illustration's sky into the footer background */}
-        <div className="absolute inset-x-0 top-0 h-1/2 bg-gradient-to-b from-[#CFEBFA] to-transparent" />
+        <div className="absolute inset-x-0 top-0 h-1/2 bg-gradient-to-b from-[#D6E4ED] to-transparent" />
         <p className="absolute inset-x-0 bottom-3 text-center text-xs text-navy">
           © {new Date().getFullYear()} Himalayan Discovery Trek. All rights reserved.
         </p>

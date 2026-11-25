@@ -22,14 +22,14 @@ export default function Hero() {
       <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-navy/50 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-t from-navy/95 via-navy/60 via-45% to-transparent to-80%" />
       {/* Bottom fade into the white page */}
-      <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-b from-transparent to-white" />
+      <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-b from-transparent to-snow" />
 
       {/* Bottom padding lifts the text clear of the white fade */}
       <div className="container-page relative pb-48 text-center sm:pb-52">
         <Reveal className="mx-auto flex max-w-3xl flex-col items-center">
-          <p className="eyebrow text-accent drop-shadow-[0_1px_6px_rgba(11,42,91,0.9)]">Himalayan Discovery Trek</p>
+          <p className="eyebrow text-saffron drop-shadow-[0_1px_6px_rgba(14,42,71,0.9)]">Himalayan Discovery Trek</p>
           <h1 className="mt-4 font-display text-6xl leading-[0.95] text-white drop-shadow-lg sm:text-7xl lg:text-8xl">
-            Discover the <span className="text-accent">Himalayas</span>
+            Discover the <span className="text-saffron">Himalayas</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-white/90 sm:text-lg">
             Life-changing journeys through towering mountains, living culture and true adventure, guided by people

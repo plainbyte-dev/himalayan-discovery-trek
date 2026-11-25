@@ -16,12 +16,12 @@
   }
 
   body {
-    @apply bg-white font-sans text-ink antialiased;
+    @apply bg-snow font-sans text-ink antialiased;
   }
 
   /* Visible, consistent keyboard focus ring across the site */
   :focus-visible {
-    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-white;
+    @apply outline-none ring-2 ring-saffron ring-offset-2 ring-offset-snow;
   }
 }
 
@@ -36,9 +36,24 @@
     @apply text-xs font-semibold uppercase tracking-eyebrow sm:text-sm;
   }
 
-  /* Yellow primary CTA */
+  /* Buttons: all pills, 14px / 600. Text on saffron is always navy. */
   .btn-primary {
-    @apply inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-ink shadow-md shadow-accent/20 transition hover:-translate-y-0.5 hover:bg-accent-dark hover:shadow-lg;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-saffron px-6 py-3 text-sm font-semibold text-navy shadow-md shadow-saffron/25 transition hover:-translate-y-0.5 hover:bg-saffron-hover hover:shadow-lg;
+  }
+
+  /* White pill for dark photos ("View Trek") */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-navy transition hover:-translate-y-0.5 hover:bg-glacier;
+  }
+
+  /* Transparent pill with white border, for dark backgrounds ("ENQUIRE") */
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/70 px-5 py-2 text-xs font-semibold uppercase tracking-wider text-white transition hover:bg-white hover:text-navy;
+  }
+
+  /* Navy outline pill for light backgrounds ("Enquire on WhatsApp") */
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-navy px-6 py-3 text-sm font-semibold text-navy transition hover:bg-navy hover:text-white;
   }
 
   /* Hero photo eases from slightly zoomed-in to its resting size on page load */
@@ -61,8 +76,8 @@
     }
   }
 
-  /* Blue inline text link with arrow ("Learn more →") */
+  /* Text link with arrow ("Explore Annapurna →") */
   .link-arrow {
-    @apply inline-flex items-center gap-1.5 text-sm font-medium text-primary transition-colors hover:text-primary-dark;
+    @apply inline-flex items-center gap-2 rounded text-sm font-semibold tracking-wide text-saffron-text transition-colors hover:text-navy;
   }
 }
